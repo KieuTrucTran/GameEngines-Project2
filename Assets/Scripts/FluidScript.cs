@@ -39,7 +39,7 @@ public class FluidScript : MonoBehaviour
        }    
        else 
        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
        }    
 
        if(Input.GetKey(KeyCode.W) && isGrounded)
