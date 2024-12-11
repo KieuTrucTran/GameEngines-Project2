@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class FluidScript : MonoBehaviour
 {
-    public GameObject particleContainer;
-    List<GameObject> particles = new List<GameObject>();
+    public float moveForce = 5.0f;
+
+    public float moveForceUp = 5.0f;
+
+    private bool isGrounded = false;
+
+    private SpriteRenderer sr;
+
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -19,14 +27,39 @@ public class FluidScript : MonoBehaviour
         // Test Movement
        if(Input.GetKey(KeyCode.D))
        {
-            transform.Translate(new Vector3(Time.deltaTime, 0, 0));
+            transform.Translate(Vector2.right * Time.deltaTime * moveForce);
+            //rb.velocity = new Vector2(Time.deltaTime * moveForce, 0);
+            sr.flipX = false;
        }
-       if (Input.GetKey(KeyCode.A))
+       else if (Input.GetKey(KeyCode.A))
        {
-            transform.Translate(new Vector3(-Time.deltaTime, 0, 0));
+            transform.Translate(Vector2.left * Time.deltaTime * moveForce);
+            //rb.velocity = new Vector2(-Time.deltaTime * moveForce, 0);
+            sr.flipX = true;
+       }    
+       else 
+       {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+       }    
+
+       if(Input.GetKey(KeyCode.W) && isGrounded)
+       {
+            transform.Translate(Vector2.up * Time.deltaTime * moveForceUp);
+            //rb.velocity = new Vector2(rb.velocity.x, Time.deltaTime * jumpForce);
        }
-        foreach (GameObject part in particles)
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.tag == "Ground")
         {
-        }
+        isGrounded = true;
+        } 
+    }
+
+    private void OnCollisionExit2D(Collision2D other) {
+        if(other.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
+        } 
     }
 }

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GameEnginesProject2.sln"
+    "dotnet.defaultSolution": "GameEngines-Project2.sln"
 }
