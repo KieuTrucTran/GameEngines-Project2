@@ -10,6 +10,8 @@ public class GasMovement : MonoBehaviour
     public float horizontalDrag = 0.95f;   // Drag effect for horizontal movement
 
     private Rigidbody2D rb;
+    private Vector2 windForce;             // Wind force applied to the player
+    private bool isInWindZone = false;     // Flag to check if the player is in a wind zone
 
     void Start()
     {
@@ -23,6 +25,7 @@ public class GasMovement : MonoBehaviour
         HandleMovement();
         ApplyHorizontalDrag();
         LimitVerticalSpeed();
+        ApplyWindForce(); // Apply wind force if in wind zone
     }
 
     private void ApplyFloatingForce()
@@ -60,5 +63,23 @@ public class GasMovement : MonoBehaviour
     {
         // Clamp the vertical velocity to create a smooth floating effect
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -maxVerticalSpeed, maxVerticalSpeed));
+    }
+
+    private void ApplyWindForce()
+    {
+        if (isInWindZone)
+        {
+            rb.AddForce(windForce, ForceMode2D.Force);
+        }
+    }
+
+    public void SetWindForce(Vector2 force)
+    {
+        windForce = force;
+    }
+
+    public void SetInWindZone(bool value)
+    {
+        isInWindZone = value;
     }
 }
