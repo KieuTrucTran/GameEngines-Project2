@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: f8a5d9c42501a344daaba92fab6217a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5594269859653044986
+    second: Main Automatic sliced-export_0
+  - first:
+      213: 6408938858797922996
+    second: Main Automatic sliced-export_1
+  - first:
+      213: -5536668463405097680
+    second: Main Automatic sliced-export_2
+  - first:
+      213: -7712278460964646303
+    second: Main Automatic sliced-export_3
+  - first:
+      213: -7070243994401738579
+    second: Main Automatic sliced-export_4
+  - first:
+      213: -6561237147345939960
+    second: Main Automatic sliced-export_5
+  - first:
+      213: 3293922882476802513
+    second: Main Automatic sliced-export_6
+  - first:
+      213: -6212943948774654719
+    second: Main Automatic sliced-export_7
+  - first:
+      213: 2720510361825470881
+    second: Main Automatic sliced-export_8
+  - first:
+      213: -8006401022096990498
+    second: Main Automatic sliced-export_9
+  - first:
+      213: -2198386182942396246
+    second: Main Automatic sliced-export_10
+  - first:
+      213: -9105127482685925252
+    second: Main Automatic sliced-export_11
+  - first:
+      213: -8269206782201342351
+    second: Main Automatic sliced-export_12
+  - first:
+      213: -4559709003351350715
+    second: Main Automatic sliced-export_13
+  - first:
+      213: 2608376253051723479
+    second: Main Automatic sliced-export_14
+  - first:
+      213: -3746283353200202560
+    second: Main Automatic sliced-export_15
+  - first:
+      213: -4879207515825864470
+    second: Main Automatic sliced-export_16
+  - first:
+      213: 4636682557256014140
+    second: Main Automatic sliced-export_17
+  - first:
+      213: -6022994259335576511
+    second: Main Automatic sliced-export_18
+  - first:
+      213: 7029416869818116029
+    second: Main Automatic sliced-export_19
+  - first:
+      213: -2796170686606622170
+    second: Main Automatic sliced-export_20
+  - first:
+      213: 5088563129190517417
+    second: Main Automatic sliced-export_21
+  - first:
+      213: -7959274465876913404
+    second: Main Automatic sliced-export_22
+  - first:
+      213: 4254356742189750335
+    second: Main Automatic sliced-export_23
+  - first:
+      213: -4738419638062957
+    second: Main Automatic sliced-export_24
+  - first:
+      213: -6453944971105453585
+    second: Main Automatic sliced-export_25
+  - first:
+      213: 6880839409070648195
+    second: Main Automatic sliced-export_26
+  - first:
+      213: 6122783436528618487
+    second: Main Automatic sliced-export_27
+  - first:
+      213: 1812759330956296599
+    second: Main Automatic sliced-export_28
+  - first:
+      213: -3231040353607852562
+    second: Main Automatic sliced-export_29
+  - first:
+      213: -8527395306262182827
+    second: Main Automatic sliced-export_30
+  - first:
+      213: -7418036193200237545
+    second: Main Automatic sliced-export_31
+  - first:
+      213: -4032593934374035443
+    second: Main Automatic sliced-export_32
+  - first:
+      213: 7467557179625897866
+    second: Main Automatic sliced-export_33
+  - first:
+      213: -7758623110849445045
+    second: Main Automatic sliced-export_34
+  - first:
+      213: -7199213135391057697
+    second: Main Automatic sliced-export_35
+  - first:
+      213: 8325832794993755692
+    second: Main Automatic sliced-export_36
+  - first:
+      213: -8373160176878748431
+    second: Main Automatic sliced-export_37
+  - first:
+      213: 7739893320825388153
+    second: Main Automatic sliced-export_38
+  - first:
+      213: -9190337274713196370
+    second: Main Automatic sliced-export_39
+  - first:
+      213: 644653280893448207
+    second: Main Automatic sliced-export_40
+  - first:
+      213: -7821858745561604801
+    second: Main Automatic sliced-export_41
+  - first:
+      213: -6215294763715175187
+    second: Main Automatic sliced-export_42
+  - first:
+      213: 1624278989353872830
+    second: Main Automatic sliced-export_43
+  - first:
+      213: 7456030086319627638
+    second: Main Automatic sliced-export_44
+  - first:
+      213: -904750280922667799
+    second: Main Automatic sliced-export_45
+  - first:
+      213: 4667761670322239531
+    second: Main Automatic sliced-export_46
+  - first:
+      213: 4373762720268635378
+    second: Main Automatic sliced-export_47
+  - first:
+      213: 6033021451421866576
+    second: Main Automatic sliced-export_48
+  - first:
+      213: -4523475165234264791
+    second: Main Automatic sliced-export_49
+  - first:
+      213: -6558994771242468509
+    second: Main Automatic sliced-export_50
+  - first:
+      213: 1966493903264066656
+    second: Main Automatic sliced-export_51
+  - first:
+      213: 8571096339463094064
+    second: Main Automatic sliced-export_52
+  - first:
+      213: 8895149801662322525
+    second: Main Automatic sliced-export_53
+  - first:
+      213: 3563906420951363016
+    second: Main Automatic sliced-export_54
+  - first:
+      213: -6322553549736832317
+    second: Main Automatic sliced-export_55
+  - first:
+      213: -1067123063594878363
+    second: Main Automatic sliced-export_56
+  - first:
+      213: -6528617393133640337
+    second: Main Automatic sliced-export_57
+  - first:
+      213: -1386373056651561391
+    second: Main Automatic sliced-export_58
+  - first:
+      213: 7829534709981945393
+    second: Main Automatic sliced-export_59
+  - first:
+      213: 4417449312190749461
+    second: Main Automatic sliced-export_60
+  - first:
+      213: 202078872800255427
+    second: Main Automatic sliced-export_61
+  - first:
+      213: 1187746477931284404
+    second: Main Automatic sliced-export_62
+  - first:
+      213: -6386489059240240099
+    second: Main Automatic sliced-export_63
+  - first:
+      213: 1541192155766612022
+    second: Main Automatic sliced-export_64
+  - first:
+      213: -4138026215615277904
+    second: Main Automatic sliced-export_65
+  - first:
+      213: -4405552172958541587
+    second: Main Automatic sliced-export_66
+  - first:
+      213: -8566050787202402825
+    second: Main Automatic sliced-export_67
+  - first:
+      213: 8536501746304631709
+    second: Main Automatic sliced-export_68
+  - first:
+      213: -7654197940213795728
+    second: Main Automatic sliced-export_69
+  - first:
+      213: -4984741013048025659
+    second: Main Automatic sliced-export_70
+  - first:
+      213: 5650867738233962236
+    second: Main Automatic sliced-export_71
+  - first:
+      213: 7961844543901673700
+    second: Main Automatic sliced-export_72
+  - first:
+      213: -3698129867406718272
+    second: Main Automatic sliced-export_73
+  - first:
+      213: -8851235274881701876
+    second: Main Automatic sliced-export_74
+  - first:
+      213: -2536824036032721332
+    second: Main Automatic sliced-export_75
+  - first:
+      213: 5362072543311234418
+    second: Main Automatic sliced-export_76
+  - first:
+      213: -1137527512491853511
+    second: Main Automatic sliced-export_77
+  - first:
+      213: 1029474674960098171
+    second: Main Automatic sliced-export_78
+  - first:
+      213: 4134823148961621650
+    second: Main Automatic sliced-export_79
+  - first:
+      213: -9103443356590173132
+    second: Main Automatic sliced-export_80
+  - first:
+      213: 8472548132933429681
+    second: Main Automatic sliced-export_81
+  - first:
+      213: -6743873645767252775
+    second: Main Automatic sliced-export_82
+  - first:
+      213: -4137888447564807633
+    second: Main Automatic sliced-export_83
+  - first:
+      213: -2402258463705871435
+    second: Main Automatic sliced-export_84
+  - first:
+      213: 7740170572957562794
+    second: Main Automatic sliced-export_85
+  - first:
+      213: -7136549587694852980
+    second: Main Automatic sliced-export_86
+  - first:
+      213: -4811739247870110693
+    second: Main Automatic sliced-export_87
+  - first:
+      213: 6350365765209337887
+    second: Main Automatic sliced-export_88
+  - first:
+      213: -2953535793817618003
+    second: Main Automatic sliced-export_89
+  - first:
+      213: 1853653109896776788
+    second: Main Automatic sliced-export_90
+  - first:
+      213: -3140403964906723493
+    second: Main Automatic sliced-export_91
+  - first:
+      213: 4523070850834946607
+    second: Main Automatic sliced-export_92
+  - first:
+      213: 7646867539549592658
+    second: Main Automatic sliced-export_93
+  - first:
+      213: 6655070814957753792
+    second: Main Automatic sliced-export_94
+  - first:
+      213: 3423712827008705774
+    second: Main Automatic sliced-export_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 304
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b34e8ee7f79d4598ae1fbe5400ccd
+      internalID: 150299552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6981dff2266be8c4cbae57f149e617dd
+      internalID: -2120528604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 308
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00159dc59e805a4f93330239c9d2dcb
+      internalID: -1149841493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078d1fe9d45d21542b04b585cd35c123
+      internalID: -867313741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 240
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae561ad22e77344088f530607802996
+      internalID: 1862548927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 240
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67c8e86866bf8543af5af36d8551606
+      internalID: -1270545131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 253
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c57aee38ce89a4995144976f8f8589
+      internalID: 720536396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 240
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501ec8fd5b6defa48b651875b365beb9
+      internalID: -300065897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 281
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826f6231ba2865f48bad5615c5ec62a3
+      internalID: -1926065489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 272
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e99f494bb627f489defb162567e1db
+      internalID: -2050408587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 272
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a59b81b46fcb05468217d9f68fd49ea
+      internalID: -107837621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 280
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7ef60a55756a246a11b3f932354bb6
+      internalID: 1431361138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6915c4ba6c320ef40a29907150c60c1f
+      internalID: 806227709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 266
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344e9aafcf0750d42a55a63c310f8077
+      internalID: 1508686538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 256
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f738bea8b726c3439d9973eb3895d70
+      internalID: -2107944501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 262
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9336ff7369019d442919e9ec01fd710a
+      internalID: -1853648367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_16
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 258
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f61398342b02d4cb9972fe0dde0635
+      internalID: 1591189807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 261
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfba9ddfd7e6ed4486316f5c5633cf6
+      internalID: -1261633233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 261
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527b60dfbadf09d449e96bb18e8f50d0
+      internalID: -2124942538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a69ef7d33b5bc94daecf6b3d23ffc34
+      internalID: -598938027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 259
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173f92fbb8fb3cb479418a2417d3a00c
+      internalID: -1031616412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 240
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf762e23921a4464d96cfd339ab92858
+      internalID: 607813413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 240
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b852a6b9da915449833805591a607e6
+      internalID: -1937371511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464e1642e8f003742a33828f7305bcc4
+      internalID: -1039821177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_24
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 243
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c276e3d57ba5bfc489faae69d851b44d
+      internalID: -1003168986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 214
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366ea0d7a4fe0db4fa3423ec50111558
+      internalID: -610587765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d42a0538cb60ac43964e8448b5a13be
+      internalID: 769835618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_27
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 208
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b95bed25c48004bb3a4426355f900f
+      internalID: -1921159805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 208
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2ec97cab76eb04f8379c3282b10366
+      internalID: -776427302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 208
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e3cf7209a5c6d40888de37ec8debd6
+      internalID: -585400382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_30
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 209
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be849a864fb70344283b24e9b98f4a40
+      internalID: 631934498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 210
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07525f97e83a4f247ad2bb99bdb27e31
+      internalID: -1610197034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 208
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4654127dc18deac4186a902329c5c3e3
+      internalID: -1649538105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 208
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78328837b34451440ad927ebce72c92f
+      internalID: 541211564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 208
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e4e8cb48e60624a8bc320235a82b33
+      internalID: -1237895538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d33930c12b825e40bef692a5536dbce
+      internalID: 896861832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 198
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8056ace53ef339b4c81039370769273c
+      internalID: 1044697815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 192
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7934c2300115b4747b64b5a500668e88
+      internalID: 932628776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 194
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bead6b52c0487742bf516cf24e7d58f
+      internalID: -2025876326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_39
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 194
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047d76a65bd28344eac43061e2b11ccc
+      internalID: 975901309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 194
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedac39dec5b8ab47bcb6d8d20238028
+      internalID: 1076195713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b816a1661260ec24d80cc5ca31bdc4f3
+      internalID: 484791052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_42
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 193
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80ed1d5087e39d44a25fe31cd15df7f
+      internalID: 687556411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_43
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 194
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a95b3afc1de824fa3becc83754ff15
+      internalID: -861410901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 192
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243d358d0707d64f904d764346abbac
+      internalID: 1077337539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_45
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 191
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ca1049bb5b5249b2360585751d4fd
+      internalID: 199749378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_46
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcee3496ab7847042a660ea2d52f96d0
+      internalID: -686741654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_47
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce69856d39a01b0448cf6e11c0616fc3
+      internalID: -1359768073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 128
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca99bd205621f334f936c7d5612a7b41
+      internalID: -216946620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c059635a9e044a8dd17f68d3cf170
+      internalID: -937018801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_50
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 132
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76293d094f0f6c3448a7836ff290c095
+      internalID: -938663180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d28699347c2c97469ee4284deb27709
+      internalID: 1878157798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 64
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd0dc15a33205f4cacee19f71eb348a
+      internalID: -1049140963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_53
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b4e28a27d8a25458bd83b7c09febc3
+      internalID: 1269412039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_54
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 77
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c6bac1714cc9640a1ea424648bcf87
+      internalID: 1149994452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece065fbb77af5b4cbae25a56a366fdf
+      internalID: -60569417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_56
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 105
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028c105d866ff5941a2c374ad4277204
+      internalID: 2121761080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_57
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e92f6a569be454e98242e0f135e356
+      internalID: 169083740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745bc98d0afe5754ab9d326099e88faa
+      internalID: -1680220776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 104
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cf61bc019d3244195e50102a482e2f
+      internalID: -1422870877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78e56ec51808304c9430b29877f204e
+      internalID: 709354557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_61
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 90
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1485371e9f5934a900f7d47abec99d
+      internalID: 890306677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_62
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87e69bb9b955d4b90720ff10a152a3
+      internalID: -94082165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 86
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c94b7dacdf2f174d90c01ff2c257cd6
+      internalID: -296942893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_64
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 82
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313d38e74efafcb44ab32a017daca8ac
+      internalID: 462327648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_65
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 85
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e1061ff4e578545b89945fc3aebb1f
+      internalID: 2132784922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_66
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 85
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb21065b7f6201941b7f7162ce0871c8
+      internalID: -1852151974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e331b2260ea75848a6da13d14a89af5
+      internalID: -764170378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_68
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 83
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b36dccba87336541b7c6793e1ce6c03
+      internalID: 198649426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_69
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee5affe4c4e8ce4b9ed64a67bf48c52
+      internalID: 612254465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 64
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b46e464fc7dc54e8deace80c8507e6
+      internalID: -1082896514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d645760a92c62a468caf76bfdb673bd
+      internalID: 299908302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_72
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07a3bb3e5fbf354eb4d94c2e47d69f4
+      internalID: -61267703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164ac2d1f53d58438898d50abf63fe7
+      internalID: 193376368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc817dbf4991df4d8d0ff31d956b6e5
+      internalID: 1325297764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_75
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 32
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c670712b74c774197f4df543b3705b
+      internalID: -863087508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_76
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 32
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461cc0cf5beeec245a20dcd08ad3ff8a
+      internalID: 1946824896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_77
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 32
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1750f4c7907d24a9920f6904094a8f
+      internalID: 1503427200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 33
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fee7b917808ae46a710dd81462d91c
+      internalID: -319694991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_79
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 34
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7d525b52b66f54eb646f9e026ea05d
+      internalID: 1943043273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_80
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 32
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01d55fd4941c24baf1721f3ccadc8f
+      internalID: 692861104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_81
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 32
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b5c51dff7aa54f9ea6118f8f525da
+      internalID: 1963513730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a7a4e347e03348899d38df081c34f
+      internalID: 725449928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3dc687e4e97f44383541942ba3262a
+      internalID: -721717806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_84
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6f2552b3592349af7ce8314a6f587
+      internalID: 1661566906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_85
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac2285a8f636fd47b83deb9e71cc204
+      internalID: -515093507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_86
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 18
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaad2c2b3601143498cc623f712cb531
+      internalID: 917455823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_87
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 18
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12301febec7bca641962d6c0549f0683
+      internalID: 1453429467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_88
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea08e83afe8aed4eb8af73cbcb185ff
+      internalID: 383617438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aea46fa96983c4b80fd038a9069442
+      internalID: 848469206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_90
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 17
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c812e943fc94648bcc20ddb94c3574
+      internalID: -628870260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_91
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcadcb7f5c5ba494ab1202368bd9a3b8
+      internalID: 38315894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_92
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 16
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069ff622facf2a04aa4bee238ad46e6b
+      internalID: -1624305859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_93
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 16
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb03e0ca3ae13014ebe1b915565fd9f9
+      internalID: 1989964950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_94
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 16
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2314f36ebec34292a4cbe67edae26
+      internalID: -746827028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Automatic sliced-export_95
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 16
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d567a8f9532b4aadeb1378be32434
+      internalID: -1383983045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 33b4ae4f61e72114fb5cdcece18cb51f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Main Automatic sliced-export_0: 150299552
+      Main Automatic sliced-export_1: -2120528604
+      Main Automatic sliced-export_10: -107837621
+      Main Automatic sliced-export_11: 1431361138
+      Main Automatic sliced-export_12: 806227709
+      Main Automatic sliced-export_13: 1508686538
+      Main Automatic sliced-export_14: -2107944501
+      Main Automatic sliced-export_15: -1853648367
+      Main Automatic sliced-export_16: 1591189807
+      Main Automatic sliced-export_17: -1261633233
+      Main Automatic sliced-export_18: -2124942538
+      Main Automatic sliced-export_19: -598938027
+      Main Automatic sliced-export_2: -1149841493
+      Main Automatic sliced-export_20: -1031616412
+      Main Automatic sliced-export_21: 607813413
+      Main Automatic sliced-export_22: -1937371511
+      Main Automatic sliced-export_23: -1039821177
+      Main Automatic sliced-export_24: -1003168986
+      Main Automatic sliced-export_25: -610587765
+      Main Automatic sliced-export_26: 769835618
+      Main Automatic sliced-export_27: -1921159805
+      Main Automatic sliced-export_28: -776427302
+      Main Automatic sliced-export_29: -585400382
+      Main Automatic sliced-export_3: -867313741
+      Main Automatic sliced-export_30: 631934498
+      Main Automatic sliced-export_31: -1610197034
+      Main Automatic sliced-export_32: -1649538105
+      Main Automatic sliced-export_33: 541211564
+      Main Automatic sliced-export_34: -1237895538
+      Main Automatic sliced-export_35: 896861832
+      Main Automatic sliced-export_36: 1044697815
+      Main Automatic sliced-export_37: 932628776
+      Main Automatic sliced-export_38: -2025876326
+      Main Automatic sliced-export_39: 975901309
+      Main Automatic sliced-export_4: 1862548927
+      Main Automatic sliced-export_40: 1076195713
+      Main Automatic sliced-export_41: 484791052
+      Main Automatic sliced-export_42: 687556411
+      Main Automatic sliced-export_43: -861410901
+      Main Automatic sliced-export_44: 1077337539
+      Main Automatic sliced-export_45: 199749378
+      Main Automatic sliced-export_46: -686741654
+      Main Automatic sliced-export_47: -1359768073
+      Main Automatic sliced-export_48: -216946620
+      Main Automatic sliced-export_49: -937018801
+      Main Automatic sliced-export_5: -1270545131
+      Main Automatic sliced-export_50: -938663180
+      Main Automatic sliced-export_51: 1878157798
+      Main Automatic sliced-export_52: -1049140963
+      Main Automatic sliced-export_53: 1269412039
+      Main Automatic sliced-export_54: 1149994452
+      Main Automatic sliced-export_55: -60569417
+      Main Automatic sliced-export_56: 2121761080
+      Main Automatic sliced-export_57: 169083740
+      Main Automatic sliced-export_58: -1680220776
+      Main Automatic sliced-export_59: -1422870877
+      Main Automatic sliced-export_6: 720536396
+      Main Automatic sliced-export_60: 709354557
+      Main Automatic sliced-export_61: 890306677
+      Main Automatic sliced-export_62: -94082165
+      Main Automatic sliced-export_63: -296942893
+      Main Automatic sliced-export_64: 462327648
+      Main Automatic sliced-export_65: 2132784922
+      Main Automatic sliced-export_66: -1852151974
+      Main Automatic sliced-export_67: -764170378
+      Main Automatic sliced-export_68: 198649426
+      Main Automatic sliced-export_69: 612254465
+      Main Automatic sliced-export_7: -300065897
+      Main Automatic sliced-export_70: -1082896514
+      Main Automatic sliced-export_71: 299908302
+      Main Automatic sliced-export_72: -61267703
+      Main Automatic sliced-export_73: 193376368
+      Main Automatic sliced-export_74: 1325297764
+      Main Automatic sliced-export_75: -863087508
+      Main Automatic sliced-export_76: 1946824896
+      Main Automatic sliced-export_77: 1503427200
+      Main Automatic sliced-export_78: -319694991
+      Main Automatic sliced-export_79: 1943043273
+      Main Automatic sliced-export_8: -1926065489
+      Main Automatic sliced-export_80: 692861104
+      Main Automatic sliced-export_81: 1963513730
+      Main Automatic sliced-export_82: 725449928
+      Main Automatic sliced-export_83: -721717806
+      Main Automatic sliced-export_84: 1661566906
+      Main Automatic sliced-export_85: -515093507
+      Main Automatic sliced-export_86: 917455823
+      Main Automatic sliced-export_87: 1453429467
+      Main Automatic sliced-export_88: 383617438
+      Main Automatic sliced-export_89: 848469206
+      Main Automatic sliced-export_9: -2050408587
+      Main Automatic sliced-export_90: -628870260
+      Main Automatic sliced-export_91: 38315894
+      Main Automatic sliced-export_92: -1624305859
+      Main Automatic sliced-export_93: 1989964950
+      Main Automatic sliced-export_94: -746827028
+      Main Automatic sliced-export_95: -1383983045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
