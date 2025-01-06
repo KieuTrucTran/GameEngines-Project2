@@ -19,6 +19,7 @@ public class ToggleButton : MonoBehaviour
         
         if (collision.tag == "Player")
         {
+            isActivated = true;
             ActivateButton();
         }
     }
@@ -35,6 +36,19 @@ public class ToggleButton : MonoBehaviour
         if (objectToActivate != null)
         {
             objectToActivate.SetActive(isActivated);
+            if (isActivated)
+        {
+            // Move the object to the left
+            Rigidbody2D body = objectToActivate.GetComponent<Rigidbody2D>();
+            if (body != null)
+            {
+                body.linearVelocity = new Vector2(-1.5f, body.linearVelocity.y);
+            }
+            else
+            {
+                Debug.LogWarning("No Rigidbody2D found on the object!");
+            }
+        }
         }
 
 
