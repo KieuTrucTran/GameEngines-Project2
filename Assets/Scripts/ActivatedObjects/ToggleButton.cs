@@ -42,7 +42,7 @@ public class ToggleButton : MonoBehaviour
             Rigidbody2D body = objectToActivate.GetComponent<Rigidbody2D>();
             if (body != null)
             {
-                body.linearVelocity = new Vector2(-1.5f, body.linearVelocity.y);
+                body.linearVelocity = new Vector2(-1, body.linearVelocity.y);
             }
             else
             {
