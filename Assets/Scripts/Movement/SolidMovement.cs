@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
         //Flip the player when moving left-right
         if (horizontalInput > 0.01f)
-            transform.localScale = Vector3.one;
+            transform.localScale = initialScale;
         else if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(initialScale.x * -1, initialScale.y, initialScale.z);
 

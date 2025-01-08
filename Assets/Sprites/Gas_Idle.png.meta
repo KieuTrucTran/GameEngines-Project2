@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 2061524bef7594c9dae2147ea8a53318
+guid: dc0656cf2b21a49b3b78958104f081f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5364998781258067660
-    second: cloud_idle_0
+      213: 6724461795433193905
+    second: Gas_Idle_0
+  - first:
+      213: -7261860046340047629
+    second: Gas_Idle_1
+  - first:
+      213: -1267368720815331632
+    second: Gas_Idle_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cloud_idle_0
+      name: Gas_Idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 9
-        width: 32
-        height: 16
+        y: 0
+        width: 106
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43195be8802bb85b0800000000000000
-      internalID: -5364998781258067660
+      spriteID: 1b12b7e0066125d50800000000000000
+      internalID: 6724461795433193905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 169
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcbc4943c0b83b90800000000000000
+      internalID: -7261860046340047629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 1148
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d66c5cfcd6696ee0800000000000000
+      internalID: -1267368720815331632
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cloud_idle_0: -5364998781258067660
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
