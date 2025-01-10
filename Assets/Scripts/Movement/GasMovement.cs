@@ -11,12 +11,21 @@ public class GasMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 windForce;             // Wind force applied to the player
-    private bool isInWindZone = false;     // Flag to check if the player is in a wind zone
+    private bool isInWindZone = false;      // Flag to check if the player is in a wind zone
+    SpriteRenderer spriteRenderer;
+
+    public Sprite normalSprite;
+    public Sprite angrySprite;
+
+    private float angryTimer = 0;
+    private float angryTime = 2.0f;
+    bool isAngry = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0; // Disable gravity for gas
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate()
@@ -26,6 +35,20 @@ public class GasMovement : MonoBehaviour
         ApplyHorizontalDrag();
         LimitVerticalSpeed();
         ApplyWindForce(); // Apply wind force if in wind zone
+
+        if (isAngry)
+        {
+            if (angryTimer < angryTime)
+            {
+                angryTimer += Time.deltaTime;
+            }else
+            {
+                angryTimer = 0;
+                isAngry = false;
+                spriteRenderer.sprite = normalSprite;
+            }
+                
+        }
     }
 
     private void ApplyFloatingForce()
@@ -38,6 +61,14 @@ public class GasMovement : MonoBehaviour
     {
         // Horizontal movement (A/D or Left/Right keys)
         float horizontalInput = Input.GetAxis("Horizontal");
+        if (horizontalInput > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        if (horizontalInput < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
         rb.AddForce(Vector2.right * horizontalInput * horizontalSpeed, ForceMode2D.Force);
 
         // Controlled upward boost (W or Up Arrow)
@@ -81,5 +112,11 @@ public class GasMovement : MonoBehaviour
     public void SetInWindZone(bool value)
     {
         isInWindZone = value;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        spriteRenderer.sprite = angrySprite;
+        isAngry = true;
     }
 }
