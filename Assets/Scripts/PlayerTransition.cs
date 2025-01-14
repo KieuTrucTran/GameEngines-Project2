@@ -82,8 +82,11 @@ public class PlayerTransition : MonoBehaviour
 
     public void zoneEntered(Collider2D collider)
     {
+
         if (collider.gameObject.tag == "Heat")
         {
+            Debug.Log("Heat entered");
+
             solidDisabled = true;
             if (currentStateIndex == 0) activateState(1);
         }

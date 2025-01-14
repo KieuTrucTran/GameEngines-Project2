@@ -9,7 +9,8 @@ public class ColliderPlayerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerTransitionScript = GetComponent<PlayerTransition>();
+        playerTransitionScript = playerParent.GetComponent<PlayerTransition>();
+        Debug.Log(playerTransitionScript.name);
     }
 
     // Update is called once per frame
