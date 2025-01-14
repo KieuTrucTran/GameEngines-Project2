@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background_Camel_0: 3933380746001589054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
