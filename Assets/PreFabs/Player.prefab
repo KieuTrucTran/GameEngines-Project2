@@ -7666,7 +7666,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4931668978767425740}
   - component: {fileID: 2823446980406390991}
-  - component: {fileID: 540731123065632955}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7710,6 +7709,7 @@ MonoBehaviour:
   - {fileID: 8922995881955417697}
   - {fileID: 4862921186807011056}
   - {fileID: 431711824551050913}
+<<<<<<< Updated upstream
 --- !u!61 &540731123065632955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7756,6 +7756,9 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+  collider: {fileID: 1657586494472993526}
+>>>>>>> Stashed changes
 --- !u!1 &1927739034990276382
 GameObject:
   m_ObjectHideFlags: 0

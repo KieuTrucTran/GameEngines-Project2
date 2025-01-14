@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ed550dee7bdf76641862928be68c0f3e
+guid: a05db3faf2ed7fc4e8916e756c0ede01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3933380746001589054
-    second: Background_Camel_0
+      213: -5322950978288056727
+    second: Screenshot 2025-01-14 232350_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_Camel_0
+      name: Screenshot 2025-01-14 232350_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 640
-        height: 320
+        width: 462
+        height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3329c3d2fc269630800000000000000
-      internalID: 3933380746001589054
+      spriteID: 966825699441126b0800000000000000
+      internalID: -5322950978288056727
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_Camel_0: 3933380746001589054
+      Screenshot 2025-01-14 232350_0: -5322950978288056727
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

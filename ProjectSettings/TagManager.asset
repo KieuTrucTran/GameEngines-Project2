@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Ground
   - Heat
+<<<<<<< Updated upstream
+=======
+  - WallClimb
+  - Box
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
