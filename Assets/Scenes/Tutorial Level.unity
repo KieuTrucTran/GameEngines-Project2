@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &553582298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1915164354363710432, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+  m_PrefabInstance: {fileID: 4772198829801785645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1022503244
 GameObject:
   m_ObjectHideFlags: 0
@@ -2868,6 +2873,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1980223829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1657586494472993526, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+  m_PrefabInstance: {fileID: 4772198829801785645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059246131
 GameObject:
   m_ObjectHideFlags: 0
@@ -13150,6 +13160,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2823446980406390991, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+      propertyPath: collider
+      value: 
+      objectReference: {fileID: 1980223829}
+    - target: {fileID: 2970105897724190929, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+      propertyPath: playerParent
+      value: 
+      objectReference: {fileID: 553582298}
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.28
@@ -13189,6 +13207,18 @@ PrefabInstance:
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763382865497839440, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7775389284981700443, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7775389284981700443, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

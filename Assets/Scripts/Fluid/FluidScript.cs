@@ -5,14 +5,16 @@ using UnityEngine;
 public class FluidScript : MonoBehaviour
 {
     public float moveForce = 5.0f;
-
+    public float slideDuration = 1.0f;
+    public float slideDecayRate = 3.0f; 
     public float moveForceUp = 5.0f;
 
-    private bool isGrounded = false;
-
     private SpriteRenderer sr;
-
     private Rigidbody2D rb;
+    private bool canWallClimb = false;
+
+    private Vector2 lastMovementDirection; // Stores the last movement direction
+    private float slideTimeRemaining = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,42 +26,61 @@ public class FluidScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Test Movement
-       if(Input.GetKey(KeyCode.D))
-       {
-            transform.Translate(Vector2.right * Time.deltaTime * moveForce);
-            //rb.velocity = new Vector2(Time.deltaTime * moveForce, 0);
+        Vector2 movement = Vector2.zero;
+
+        // Handle horizontal movement
+        if (Input.GetKey(KeyCode.D))
+        {
+            movement.x = 1;
             sr.flipX = false;
-       }
-       else if (Input.GetKey(KeyCode.A))
-       {
-            transform.Translate(Vector2.left * Time.deltaTime * moveForce);
-            //rb.velocity = new Vector2(-Time.deltaTime * moveForce, 0);
+            slideTimeRemaining = slideDuration; // Reset slide time
+            lastMovementDirection = Vector2.right;
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            movement.x = -1;
             sr.flipX = true;
-       }    
-       else 
-       {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-       }    
+            slideTimeRemaining = slideDuration; // Reset slide time
+            lastMovementDirection = Vector2.left;
+        }
 
-       if(Input.GetKey(KeyCode.W) && isGrounded)
-       {
-            transform.Translate(Vector2.up * Time.deltaTime * moveForceUp);
-            //rb.velocity = new Vector2(rb.velocity.x, Time.deltaTime * jumpForce);
-       }
+        // Apply movement
+        if (movement != Vector2.zero)
+        {
+            transform.Translate(movement * Time.deltaTime * moveForce);
+        }
+        else if (slideTimeRemaining > 0) // Apply sliding effect
+        {
+            transform.Translate(lastMovementDirection * Time.deltaTime * moveForce * (slideTimeRemaining / slideDuration));
+            slideTimeRemaining -= Time.deltaTime * slideDecayRate;
+        }
+
+        // Handle wall climbing
+        if (Input.GetKey(KeyCode.W) && canWallClimb)
+        {
+            rb.gravityScale = -0.5f;
+        }
+        else
+        {
+            rb.gravityScale = 1;
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D other) {
-        if(other.gameObject.tag == "Ground")
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+
+        if (other.gameObject.tag == "WallClimb")
         {
-        isGrounded = true;
-        } 
+            canWallClimb = true;
+        }
     }
 
-    private void OnCollisionExit2D(Collision2D other) {
-        if(other.gameObject.tag == "Ground")
+    private void OnCollisionExit2D(Collision2D other)
+    {
+
+        if (other.gameObject.tag == "WallClimb")
         {
-            isGrounded = false;
-        } 
+            canWallClimb = false;
+        }
     }
 }

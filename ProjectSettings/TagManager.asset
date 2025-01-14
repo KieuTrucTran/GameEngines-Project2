@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Heat
+  - WallClimb
   layers:
   - Default
   - TransparentFX

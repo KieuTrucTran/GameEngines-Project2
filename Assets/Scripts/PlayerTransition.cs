@@ -8,10 +8,10 @@ public class PlayerTransition : MonoBehaviour
     //ice, water, water particles, Gas
     public Transform[] playerStates = new Transform[4];
 
+    public GameObject collider;
+
     Vector3 currentPosition = new Vector3(0, 0, 0);
     int currentStateIndex = 0;
-
-    bool inHeatZone = false;
 
     bool solidDisabled = false;
     bool gasDisabled = false;
@@ -26,13 +26,16 @@ public class PlayerTransition : MonoBehaviour
     void Update()
     {
         currentPosition = playerStates[currentStateIndex].position;
+        collider.transform.position = currentPosition;
+
+
 
         //water particles always need to be near player because they can't teleport instantly
         playerStates[2].position = currentPosition;
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if(!solidDisabled) activateState(0);
+            if (!solidDisabled) activateState(0);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -42,7 +45,7 @@ public class PlayerTransition : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            if(!gasDisabled) activateState(3); //skipped 2, which are the particles
+            if (!gasDisabled) activateState(3); //skipped 2, which are the particles
         }
     }
 
@@ -77,7 +80,7 @@ public class PlayerTransition : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    public void zoneEntered(Collider2D collider)
     {
         if (collider.gameObject.tag == "Heat")
         {
@@ -85,14 +88,13 @@ public class PlayerTransition : MonoBehaviour
             if (currentStateIndex == 0) activateState(1);
         }
 
-        if(collider.gameObject.tag == "Cold")
+        if (collider.gameObject.tag == "Cold")
         {
             gasDisabled = true;
             if (currentStateIndex == 3) activateState(1);
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collider)
+    public void zoneEnxited(Collider2D collider)
     {
         if (collider.gameObject.tag == "Heat")
         {
@@ -104,4 +106,5 @@ public class PlayerTransition : MonoBehaviour
             gasDisabled = false;
         }
     }
+
 }
