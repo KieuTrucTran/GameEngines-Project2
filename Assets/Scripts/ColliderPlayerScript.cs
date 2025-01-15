@@ -25,6 +25,6 @@ public class ColliderPlayerScript : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        playerTransitionScript.zoneEnxited(collision);
+        playerTransitionScript.zoneExited(collision);
     }
 }

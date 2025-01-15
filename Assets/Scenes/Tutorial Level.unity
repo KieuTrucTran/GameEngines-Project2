@@ -3958,8 +3958,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!1 &1296198425
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,7 +4702,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20c7de405fe249d45930def91ee04b2d, type: 3}
->>>>>>> Stashed changes
 --- !u!1 &2059246131
 GameObject:
   m_ObjectHideFlags: 0
@@ -17254,13 +17251,3 @@ SceneRoots:
   - {fileID: 1126149855}
   - {fileID: 7274382144477167990}
   - {fileID: 1230350908}
-<<<<<<< Updated upstream
-=======
-  - {fileID: 509069286}
-  - {fileID: 1710078410}
-  - {fileID: 388666241}
-  - {fileID: 705597538}
-  - {fileID: 1116363432}
-  - {fileID: 463931465}
-  - {fileID: 1443044912}
->>>>>>> Stashed changes

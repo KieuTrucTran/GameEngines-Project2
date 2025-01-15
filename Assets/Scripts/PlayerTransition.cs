@@ -77,7 +77,7 @@ public class PlayerTransition : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    public void zoneEntered(Collider2D collider)
     {
         if (collider.gameObject.tag == "Heat")
         {
@@ -92,7 +92,7 @@ public class PlayerTransition : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collider)
+    public void zoneExited(Collider2D collider)
     {
         if (collider.gameObject.tag == "Heat")
         {
