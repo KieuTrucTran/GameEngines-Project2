@@ -33,29 +33,27 @@ public class FluidScript : MonoBehaviour
         {
             movement.x = 1;
             sr.flipX = false;
-            slideTimeRemaining = slideDuration; // Reset slide time
+            slideTimeRemaining = slideDuration;
             lastMovementDirection = Vector2.right;
         }
         else if (Input.GetKey(KeyCode.A))
         {
             movement.x = -1;
             sr.flipX = true;
-            slideTimeRemaining = slideDuration; // Reset slide time
+            slideTimeRemaining = slideDuration; 
             lastMovementDirection = Vector2.left;
         }
 
-        // Apply movement
         if (movement != Vector2.zero)
         {
             transform.Translate(movement * Time.deltaTime * moveForce);
         }
-        else if (slideTimeRemaining > 0) // Apply sliding effect
+        else if (slideTimeRemaining > 0) 
         {
             transform.Translate(lastMovementDirection * Time.deltaTime * moveForce * (slideTimeRemaining / slideDuration));
             slideTimeRemaining -= Time.deltaTime * slideDecayRate;
         }
 
-        // Handle wall climbing
         if (Input.GetKey(KeyCode.W) && canWallClimb)
         {
             rb.gravityScale = -0.5f;
