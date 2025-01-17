@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Heat
+  - BoxForBreaking
   - WallClimb
   layers:
   - Default
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: Top
     uniqueID: 4241753563
+    locked: 0
+  - name: Player
+    uniqueID: 2202220487
     locked: 0
   m_RenderingLayers:
   - Default

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Thermometer_Idle
+  m_Name: Thermometer_Heat 1
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,8 +22,14 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -5906617233680886355, guid: 5f62fd412d313494fa653bbce4698d54, type: 3}
+    - time: 0.16666667
+      value: {fileID: -8121595384731536680, guid: 4b0e995587a7f44f6a8bf603cb78300f, type: 3}
     - time: 0.33333334
-      value: {fileID: -5906617233680886355, guid: 5f62fd412d313494fa653bbce4698d54, type: 3}
+      value: {fileID: 643592694772799495, guid: 17aaf8f9d83ed4ab7abeb2bf14cf5aa0, type: 3}
+    - time: 0.5
+      value: {fileID: 5904655315725055356, guid: 47bc2747c069a4bec902f2313e38d3e0, type: 3}
+    - time: 0.6666667
+      value: {fileID: 5904655315725055356, guid: 47bc2747c069a4bec902f2313e38d3e0, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -47,13 +53,16 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -5906617233680886355, guid: 5f62fd412d313494fa653bbce4698d54, type: 3}
-    - {fileID: -5906617233680886355, guid: 5f62fd412d313494fa653bbce4698d54, type: 3}
+    - {fileID: -8121595384731536680, guid: 4b0e995587a7f44f6a8bf603cb78300f, type: 3}
+    - {fileID: 643592694772799495, guid: 17aaf8f9d83ed4ab7abeb2bf14cf5aa0, type: 3}
+    - {fileID: 5904655315725055356, guid: 47bc2747c069a4bec902f2313e38d3e0, type: 3}
+    - {fileID: 5904655315725055356, guid: 47bc2747c069a4bec902f2313e38d3e0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35000002
+    m_StopTime: 0.68333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
