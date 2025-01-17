@@ -43,7 +43,7 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
@@ -52,7 +52,7 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
