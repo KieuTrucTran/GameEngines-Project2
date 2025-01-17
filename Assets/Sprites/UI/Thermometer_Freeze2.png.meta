@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 086d9fefa4a62b64f836e68ba5c981b4
+guid: d717ff5d255464e3081762dd3e2b43f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5825384297244026035
-    second: Background_Orange 1_0
+      213: 2386195129514841008
+    second: IMG_5001-1.png__3_-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_Orange 1_0
+      name: IMG_5001-1.png__3_-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 640
-        height: 320
+        x: 151
+        y: 40
+        width: 184
+        height: 420
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b46e55772ce7d050800000000000000
-      internalID: 5825384297244026035
+      spriteID: 0b3df73e3d77d1120800000000000000
+      internalID: 2386195129514841008
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_Orange 1_0: 5825384297244026035
+      IMG_5001-1.png__3_-removebg-preview_0: 2386195129514841008
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
