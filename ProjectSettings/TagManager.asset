@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Heat
   - BoxForBreaking
+  - WallClimb
   layers:
   - Default
   - TransparentFX
