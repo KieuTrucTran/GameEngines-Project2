@@ -4,8 +4,6 @@ using UnityEngine.UI;
 
 public class PlayerTransition : MonoBehaviour
 {
-    private int stateCounter = 0;
-
     //ice, water, water particles, Gas
     public Transform[] playerStates = new Transform[4];
 
