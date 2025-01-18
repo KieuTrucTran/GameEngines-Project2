@@ -11,7 +11,7 @@ public class PlayerTransition : MonoBehaviour
     public GameObject collider;
 
     Vector3 currentPosition = new Vector3(0, 0, 0);
-    int currentStateIndex = 0;
+    public int currentStateIndex = 0;
 
     bool solidDisabled = false;
     bool gasDisabled = false;
