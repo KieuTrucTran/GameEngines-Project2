@@ -1,24 +1,19 @@
 using UnityEngine;
 
-public class LeverScript : MonoBehaviour
+public class LeverFanController : MonoBehaviour
 {
     public Sprite leverOff;
     public Sprite leverOn;
 
-    public GameObject wallTop;
-    public GameObject wallBottom;
-
-    public float openingDistance = 2.5f;
-
     private bool playerInDistance = false;
     private bool leverPressed = false;
 
-    private float initialPositionY;
+    public GameObject windZone;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        initialPositionY = wallTop.transform.position.y;
+        
     }
 
     // Update is called once per frame
@@ -33,10 +28,8 @@ public class LeverScript : MonoBehaviour
             }
         }    
 
-        if(leverPressed && wallTop.transform.position.y < initialPositionY + openingDistance)
-        {
-            wallTop.transform.position += Vector3.up * Time.deltaTime;
-            wallBottom.transform.position += Vector3.down * Time.deltaTime;
+        if (leverPressed) {
+            windZone.SetActive(false);
         }
     }
 
