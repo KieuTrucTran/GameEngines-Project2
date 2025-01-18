@@ -8,6 +8,8 @@ public class LeverScript : MonoBehaviour
     public GameObject wallTop;
     public GameObject wallBottom;
 
+    public float openingDistance = 2.5f;
+
     private bool playerInDistance = false;
     private bool leverPressed = false;
 
@@ -31,7 +33,7 @@ public class LeverScript : MonoBehaviour
             }
         }    
 
-        if(leverPressed && wallTop.transform.position.y < initialPositionY + 3)
+        if(leverPressed && wallTop.transform.position.y < initialPositionY + openingDistance)
         {
             wallTop.transform.position += Vector3.up * Time.deltaTime;
             wallBottom.transform.position += Vector3.down * Time.deltaTime;

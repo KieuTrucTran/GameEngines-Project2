@@ -7831,6 +7831,7 @@ MonoBehaviour:
   - {fileID: 4862921186807011056}
   - {fileID: 431711824551050913}
   collider: {fileID: 1657586494472993526}
+  currentStateIndex: 0
 --- !u!1 &1927739034990276382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9875,7 +9876,7 @@ GameObject:
   - component: {fileID: 9185547052446641662}
   m_Layer: 0
   m_Name: Gas-Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

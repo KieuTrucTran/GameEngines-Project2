@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 1022503246}
   m_Layer: 0
   m_Name: Tilemap_Front No collision
-  m_TagString: Untagged
+  m_TagString: WallClimb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3666,7 +3666,7 @@ GameObject:
   - component: {fileID: 2059246133}
   m_Layer: 0
   m_Name: Tilemap_Back no collision
-  m_TagString: Untagged
+  m_TagString: WallClimb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14938,7 +14938,7 @@ GameObject:
   - component: {fileID: 6860147541554047536}
   m_Layer: 0
   m_Name: Tilemap_Mid
-  m_TagString: Untagged
+  m_TagString: WallClimb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14957,7 +14957,7 @@ GameObject:
   - component: {fileID: 5501126055228052380}
   m_Layer: 0
   m_Name: Tilemap_Background
-  m_TagString: Untagged
+  m_TagString: WallClimb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17974,8 +17974,6 @@ SceneRoots:
   - {fileID: 1508224461}
   - {fileID: 3307257341049381270}
   - {fileID: 5472924935783988515}
-  - {fileID: 174544926}
-  - {fileID: 1401004099}
   - {fileID: 8774374138177353889}
   - {fileID: 1849344006}
   - {fileID: 564555227}
