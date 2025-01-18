@@ -10,6 +10,10 @@ TagManager:
   - WallClimb
   - Box
   - Cold
+  - Grates
+  - Spring
+  - Water
+  - Damage
   layers:
   - Default
   - TransparentFX
