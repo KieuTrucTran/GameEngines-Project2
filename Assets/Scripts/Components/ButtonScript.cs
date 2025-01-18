@@ -13,6 +13,8 @@ public class ButtonScript : MonoBehaviour
     private float moveSpeedOpen = 0.1f;
     private float moveSpeedClose = 2.0f;
 
+    private int objectsInCollider = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -48,6 +50,11 @@ public class ButtonScript : MonoBehaviour
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
         {
+            objectsInCollider++;
+        }
+
+        if(objectsInCollider > 0)
+        {
             buttonPressed = true;
         }
     }
@@ -56,6 +63,11 @@ public class ButtonScript : MonoBehaviour
     {
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
+        {
+            objectsInCollider--;
+        }
+
+        if(objectsInCollider == 0)
         {
             buttonPressed = false;
         }

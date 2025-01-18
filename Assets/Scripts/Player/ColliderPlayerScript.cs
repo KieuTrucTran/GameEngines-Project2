@@ -10,7 +10,6 @@ public class ColliderPlayerScript : MonoBehaviour
     void Start()
     {
         playerTransitionScript = playerParent.GetComponent<PlayerTransition>();
-        Debug.Log(playerTransitionScript.name);
     }
 
     // Update is called once per frame

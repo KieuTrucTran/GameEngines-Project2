@@ -22,7 +22,6 @@ public class NPCScript : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            Debug.Log(collision.gameObject + " entered an NPC's speech range");
             speechText.SetActive(true);
         }
     }
@@ -31,7 +30,6 @@ public class NPCScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log(collision.gameObject + " exited an NPC's speech range");
             speechText.SetActive(false);
         }
     }
