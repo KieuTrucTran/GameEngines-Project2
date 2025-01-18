@@ -8,7 +8,7 @@ public class PlayerTransition : MonoBehaviour
     //ice, water, water particles, Gas
     public Transform[] playerStates = new Transform[4];
 
-    public GameObject collider;
+    public GameObject colliderObject;
 
     Vector3 currentPosition = new Vector3(0, 0, 0);
     int currentStateIndex = 0;
@@ -26,8 +26,7 @@ public class PlayerTransition : MonoBehaviour
     void Update()
     {
         currentPosition = playerStates[currentStateIndex].position;
-        collider.transform.position = currentPosition;
-
+        colliderObject.transform.position = currentPosition;
 
 
         //water particles always need to be near player because they can't teleport instantly
