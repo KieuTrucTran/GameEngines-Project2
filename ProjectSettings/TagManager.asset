@@ -8,6 +8,8 @@ TagManager:
   - Heat
   - BoxForBreaking
   - WallClimb
+  - Box
+  - Cold
   layers:
   - Default
   - TransparentFX
