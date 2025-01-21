@@ -12,6 +12,10 @@ TagManager:
   - Cold
   - Spring
   - WaterZone
+  - Grates
+  - Spring
+  - Water
+  - Damage
   layers:
   - Default
   - TransparentFX

@@ -13,6 +13,8 @@ public class ButtonScript : MonoBehaviour
     private float moveSpeedOpen = 0.1f;
     private float moveSpeedClose = 2.0f;
 
+    private int objectsInCollider = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -43,19 +45,29 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
+        {
+            objectsInCollider++;
+        }
+
+        if(objectsInCollider > 0)
         {
             buttonPressed = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Box")
+        {
+            objectsInCollider--;
+        }
+
+        if(objectsInCollider == 0)
         {
             buttonPressed = false;
         }
