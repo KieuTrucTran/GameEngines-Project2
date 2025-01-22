@@ -7830,8 +7830,9 @@ MonoBehaviour:
   - {fileID: 8922995881955417697}
   - {fileID: 4862921186807011056}
   - {fileID: 431711824551050913}
-  collider: {fileID: 1657586494472993526}
+  colliderObject: {fileID: 1657586494472993526}
   currentStateIndex: 0
+  thermometer: {fileID: 0}
 --- !u!1 &1927739034990276382
 GameObject:
   m_ObjectHideFlags: 0
@@ -11266,7 +11267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 5
-  slideDuration: 1
+  slideDuration: 2
   slideDecayRate: 3
   moveForceUp: 5
 --- !u!1 &2903166545529154542

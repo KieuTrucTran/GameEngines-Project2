@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94d4d4d46b2ac194b828459d7dcaf97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugMode: 1
   scenes:
+  - Tutorial Level
   - Test Scene
-  images:
-  - {fileID: 0}
   defaultImage: {fileID: 0}
   transitionSpeed: 2
