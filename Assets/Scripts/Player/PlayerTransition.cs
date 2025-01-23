@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.ParticleSystem;
 
 public class PlayerTransition : MonoBehaviour
 {
@@ -16,16 +17,23 @@ public class PlayerTransition : MonoBehaviour
     bool gasDisabled = false;
 
     [SerializeField] private Image thermometer;
-    private Animator animator; 
+    private Animator animator;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
-        animator = thermometer.GetComponent<Animator>();
-        animator.SetBool("goIdle", true);
+        if(thermometer != null)
+        {
+            animator = thermometer.GetComponent<Animator>();
+            animator.SetBool("goIdle", true);
+        }
+
+        GameObject fluidPlayer = playerStates[currentStateIndex].gameObject;
+        fluidPlayer.GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 1, 0));
+
     }
+
 
     // Update is called once per frame
     void Update()
@@ -52,6 +60,9 @@ public class PlayerTransition : MonoBehaviour
             if (!gasDisabled) activateState(3); //skipped 2, which are the particles
         }
 
+        //only animation code beyond this point
+
+        if (thermometer == null) return;
 
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0); // Get state info for the first layer
         if (stateInfo.IsName("Thermometer_DeFreeze") && stateInfo.normalizedTime >= 1.0f)
@@ -79,6 +90,7 @@ public class PlayerTransition : MonoBehaviour
                 playerStates[1].gameObject.SetActive(true);
                 playerStates[1].position = currentPosition;
                 playerStates[2].gameObject.SetActive(true);
+                
                 break;
             case 3:
                 playerStates[3].gameObject.SetActive(true);
@@ -97,6 +109,7 @@ public class PlayerTransition : MonoBehaviour
 
     public void zoneEntered(Collider2D collider)
     {
+        if (thermometer == null) return;
         
 
         if (collider.gameObject.tag == "Heat")
@@ -122,7 +135,7 @@ public class PlayerTransition : MonoBehaviour
     }
     public void zoneEnxited(Collider2D collider)
     {
-       
+        if (thermometer == null) return;
 
         if (collider.gameObject.tag == "Heat")
         {
