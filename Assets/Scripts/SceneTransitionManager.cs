@@ -29,7 +29,6 @@ public class SceneTransitionManager : MonoBehaviour
 
 
     [Header("Transition Effect")]
-    public Image defaultImage;
     public float transitionSpeed = 2.0f;
     private bool initiateTransition = false;
     private bool transitionDone = false;

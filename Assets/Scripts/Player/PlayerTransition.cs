@@ -11,7 +11,7 @@ public class PlayerTransition : MonoBehaviour
     public GameObject colliderObject;
 
     Vector3 currentPosition = new Vector3(0, 0, 0);
-    public int currentStateIndex = 0;
+    public int currentStateIndex = 1; // Player starts as Liquid
 
     bool solidDisabled = false;
     bool gasDisabled = false;
