@@ -7831,7 +7831,7 @@ MonoBehaviour:
   - {fileID: 4862921186807011056}
   - {fileID: 431711824551050913}
   colliderObject: {fileID: 1657586494472993526}
-  currentStateIndex: 0
+  currentStateIndex: 1
   thermometer: {fileID: 0}
 --- !u!1 &1927739034990276382
 GameObject:
