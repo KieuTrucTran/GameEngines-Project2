@@ -40,12 +40,18 @@ public class SceneTransitionManager : MonoBehaviour
         if (debugMode)
         {
             Debug.Log("Starting up SceneManager...");
+            Debug.Log(Instance);
             Debug.Log("Scene List:");
             foreach (var s in scenes)
             {
-                Debug.Log(s);
+                if (s == scenes[currentSceneIndex]) {
+                    Debug.Log(">" + s);
+                }else
+                {
+                    Debug.Log(s);
+                }
+                
             }
-            Debug.Log("Current Scene: " + scenes[currentSceneIndex]);
         }
     }
 
@@ -64,6 +70,7 @@ public class SceneTransitionManager : MonoBehaviour
         if (transitionDone)
         {
             initiateTransition = false;
+            if (debugMode) Debug.Log("Loading next scene");
             loadToNextScene();
         }
 
@@ -80,7 +87,8 @@ public class SceneTransitionManager : MonoBehaviour
      */
     void checkTransitionState()
     {
-        Image image = defaultImage;
+        GameObject imageObject = GameObject.Find("Canvas/TransitionImage");
+        Image image = imageObject.GetComponent<Image>();
 
         if (initiateTransition)
         {
