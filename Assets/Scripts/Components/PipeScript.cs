@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class PipeTeleport : MonoBehaviour
 {
+    [Tooltip("Drag the other pipe here in the Inspector (the second in this pair).")]
     public PipeTeleport otherPipe;
+
     private bool playerInside;
-    private PlayerTransition playerTransition; 
+    private PlayerTransition playerTransition;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,7 +14,7 @@ public class PipeTeleport : MonoBehaviour
         {
             playerInside = true;
             playerTransition = collision.GetComponentInParent<PlayerTransition>();
-            Debug.Log("Player entered pipe area.");
+            Debug.Log($"{name}: Player entered pipe area.");
         }
     }
 
@@ -22,30 +24,43 @@ public class PipeTeleport : MonoBehaviour
         {
             playerInside = false;
             playerTransition = null;
-            Debug.Log("Player left pipe area.");
+            Debug.Log($"{name}: Player left pipe area.");
         }
     }
 
     private void Update()
     {
+        // Only when player is in the pipe trigger
         if (playerInside && playerTransition != null)
         {
+            // Press E to teleport
             if (Input.GetKeyDown(KeyCode.E))
             {
-                // Check if player is in Water form (index 1)
+                // Must be Water (index 1)
                 if (playerTransition.currentStateIndex == 1)
                 {
-                    // Teleport the entire Player parent
-                    Transform playerRoot = playerTransition.gameObject.transform;
-                    playerRoot.position = otherPipe.transform.position;
-
-                    Debug.Log("Teleported the whole player!");
+                    if (otherPipe != null)
+                    {
+                        TeleportPlayer();
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"{name} has no 'otherPipe' assigned!");
+                    }
                 }
                 else
                 {
-                    Debug.Log("You must be in Water form to use the pipe.");
+                    Debug.Log("Must be Water form to use this pipe!");
                 }
             }
         }
+    }
+
+    private void TeleportPlayer()
+    {
+        Debug.Log($"{name}: Teleporting player to pipe '{otherPipe.name}'");
+        // Move the top-level player object
+        Transform playerRoot = playerTransition.transform; 
+        playerRoot.position = otherPipe.transform.position;
     }
 }
