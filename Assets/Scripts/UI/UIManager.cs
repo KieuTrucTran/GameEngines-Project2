@@ -35,7 +35,7 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void MainMenu(){
+    public void Menu(){
         SceneManager.LoadScene(0);
     }
 
@@ -50,5 +50,7 @@ public class UIManager : MonoBehaviour
 
     private void PauseGame(bool status){
         pauseScreen.SetActive(status);
+
+        Time.timeScale = System.Convert.ToInt32(!status);
     }
 }
