@@ -4,9 +4,10 @@ public class NPCScript : MonoBehaviour
 {
     public GameObject speechText;
 
-
+    private Vector3 initialScale; 
     private void Start()
     {
+        initialScale = transform.localScale;
         speechText.SetActive(false);
     }
 
@@ -38,10 +39,10 @@ public class NPCScript : MonoBehaviour
     {
         if (transform.position.x < target.transform.position.x)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(initialScale.x, initialScale.y, 1);
         }else
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-initialScale.x, initialScale.y, 1);
         }
     }
 

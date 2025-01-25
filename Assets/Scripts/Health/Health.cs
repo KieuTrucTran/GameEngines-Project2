@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     public GameObject gas;
     public GameObject PlayerParent;
 
+    private UIManager ui;
+
     private bool dead;
 
     [SerializeField] private float iFramesDuration;
@@ -24,6 +26,8 @@ public class Health : MonoBehaviour
         spriteRender1 = solid.GetComponent<SpriteRenderer>();
         spriteRender2 = fluid.GetComponent<SpriteRenderer>();
         spriteRender3 = gas.GetComponent<SpriteRenderer>();
+
+        ui = FindObjectOfType<UIManager>();
     }
 
     private void Update()
@@ -42,8 +46,9 @@ public class Health : MonoBehaviour
         } else {
             
            // if (!dead){
-           //     animator.SetTrigger("dead");
-                //player dead
+            //player dead
+            ui.GameOver();
+            
             if(GetComponent<PlayerMovement>() != null)
                 GetComponent<PlayerMovement>().enabled = false;
             solid.SetActive(false);
