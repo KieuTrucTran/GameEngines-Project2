@@ -14,6 +14,7 @@ public class PlayerTransition : MonoBehaviour
     public int currentStateIndex = 1; // Player starts as Liquid
 
     bool solidDisabled = false;
+    bool fluidDisabled = false;
     bool gasDisabled = false;
 
     [SerializeField] private Image thermometer;
@@ -52,7 +53,7 @@ public class PlayerTransition : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            activateState(1);
+            if (!fluidDisabled)activateState(1);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
@@ -129,6 +130,12 @@ public class PlayerTransition : MonoBehaviour
             animator.SetBool("goIdle",false);
             //animator.ResetTrigger("defreezing");
             
+            fluidDisabled = true;
+            if (currentStateIndex == 1) activateState(0);
+        }
+
+        if (collider.gameObject.tag == "WaterZone")
+        {
             gasDisabled = true;
             if (currentStateIndex == 3) activateState(1);
         }
@@ -145,6 +152,12 @@ public class PlayerTransition : MonoBehaviour
         }
 
         if (collider.gameObject.tag == "Cold")
+        {
+            fluidDisabled = false;
+            animator.SetTrigger("defreezing");
+        }
+
+        if (collider.gameObject.tag == "WaterZone")
         {
             gasDisabled = false;
             animator.SetTrigger("defreezing");

@@ -35,20 +35,8 @@ public class ToggleButton : MonoBehaviour
         // Activate or deactivate the target object
         if (objectToActivate != null)
         {
-            objectToActivate.SetActive(isActivated);
-            if (isActivated)
-        {
-            // Move the object to the left
-            Rigidbody2D body = objectToActivate.GetComponent<Rigidbody2D>();
-            if (body != null)
-            {
-                body.linearVelocity = new Vector2(-1, body.linearVelocity.y);
-            }
-            else
-            {
-                Debug.LogWarning("No Rigidbody2D found on the object!");
-            }
-        }
+            objectToActivate.SetActive(false);
+            
         }
 
 
