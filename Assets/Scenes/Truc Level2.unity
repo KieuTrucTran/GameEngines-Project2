@@ -606,11 +606,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!1 &536032169 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1657586494472993526, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
+--- !u!114 &536032174 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7905281246560406168, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
   m_PrefabInstance: {fileID: 1692061486}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0630a3e92acb149b8972ae8a96537064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &753773596
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1666,7 @@ PrefabInstance:
     - target: {fileID: 1154004077661020701, guid: c57c85d054c9f414aae6a37af054e403, type: 3}
       propertyPath: playerHealth
       value: 
-      objectReference: {fileID: 1810866283}
+      objectReference: {fileID: 536032174}
     - target: {fileID: 1304550227671833234, guid: c57c85d054c9f414aae6a37af054e403, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.87297004
@@ -2279,17 +2285,13 @@ PrefabInstance:
       propertyPath: thermometer
       value: 
       objectReference: {fileID: 962470627}
-    - target: {fileID: 2823446980406390991, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-      propertyPath: colliderObject
-      value: 
-      objectReference: {fileID: 536032169}
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.24
+      value: -16.9
       objectReference: {fileID: 0}
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.21
+      value: 10.04
       objectReference: {fileID: 0}
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2481,17 +2483,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bb7b5a4a31afc740bd3183bcddd79f5, type: 3}
---- !u!114 &1810866283 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6655542395867617676, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-  m_PrefabInstance: {fileID: 1692061486}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0630a3e92acb149b8972ae8a96537064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1957426016
 PrefabInstance:
   m_ObjectHideFlags: 0

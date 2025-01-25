@@ -6450,6 +6450,7 @@ GameObject:
   - component: {fileID: 7775389284981700443}
   - component: {fileID: 2970105897724190929}
   - component: {fileID: 8658064837960542450}
+  - component: {fileID: 7905281246560406168}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Player
@@ -6558,6 +6559,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7905281246560406168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657586494472993526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0630a3e92acb149b8972ae8a96537064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 5
+  currentHealth: 5
+  solid: {fileID: 4403752352964037066}
+  fluid: {fileID: 2885562174376327362}
+  gas: {fileID: 2412400596924347407}
+  PlayerParent: {fileID: 1915164354363710432}
+  iFramesDuration: 1
+  numberOfFlashes: 2
 --- !u!1 &1725403998222803352
 GameObject:
   m_ObjectHideFlags: 0
@@ -9877,7 +9898,7 @@ GameObject:
   - component: {fileID: 9185547052446641662}
   m_Layer: 0
   m_Name: Gas-Player
-  m_TagString: Player
+  m_TagString: Gas Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20864,7 +20885,6 @@ GameObject:
   - component: {fileID: 6501221847032043471}
   - component: {fileID: 8771764539103702971}
   - component: {fileID: 240785205907516308}
-  - component: {fileID: 6655542395867617676}
   - component: {fileID: 6761192174847742352}
   - component: {fileID: 4796030107570267595}
   m_Layer: 0
@@ -20960,22 +20980,6 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &6655542395867617676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4403752352964037066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0630a3e92acb149b8972ae8a96537064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 5
-  currentHealth: 5
-  iFramesDuration: 0
-  numberOfFlashes: 0
 --- !u!50 &6761192174847742352
 Rigidbody2D:
   serializedVersion: 5
