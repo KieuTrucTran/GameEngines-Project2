@@ -16,7 +16,7 @@ public class WindZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Check if the player is entering the wind zone
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Gas Player"))
         {
             GasMovement gasMovement = collision.GetComponent<GasMovement>();
             if (gasMovement != null)
@@ -30,7 +30,7 @@ public class WindZone : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         // Reapply wind force in case it's needed
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Gas Player"))
         {
             GasMovement gasMovement = collision.GetComponent<GasMovement>();
             if (gasMovement != null)
@@ -43,7 +43,7 @@ public class WindZone : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         // Reset wind effects when the player leaves the wind zone
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Gas Player"))
         {
             GasMovement gasMovement = collision.GetComponent<GasMovement>();
             if (gasMovement != null)
