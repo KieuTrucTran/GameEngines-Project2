@@ -16,6 +16,7 @@ TagManager:
   - Spring
   - Water
   - Damage
+  - Gas Player
   layers:
   - Default
   - TransparentFX
