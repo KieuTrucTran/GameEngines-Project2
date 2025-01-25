@@ -17,6 +17,7 @@ TagManager:
   - Water
   - Damage
   - Gas Player
+  - Non-Gas Player
   layers:
   - Default
   - TransparentFX

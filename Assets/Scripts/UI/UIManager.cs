@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
-    //[SerializeField] private GameObject gameOverScreen;
+    [SerializeField] private GameObject gameOverScreen;
     //[SerializeField] private AudioClip gameOverSound;
 
     [SerializeField] private GameObject pauseScreen;
@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
     }
 
     public void GameOver(){
-        //gameOverScreen.SetActive(true);
+        gameOverScreen.SetActive(true);
         //SoundManager.instance.PlaySound(gameOverSound);
     }
 
@@ -37,6 +37,9 @@ public class UIManager : MonoBehaviour
 
     public void Menu(){
         SceneManager.LoadScene(0);
+    }
+    public void Volume(){
+        //SceneManager.LoadScene(0);
     }
 
     public void Quit(){
@@ -49,6 +52,7 @@ public class UIManager : MonoBehaviour
 
 
     private void PauseGame(bool status){
+        gameOverScreen.SetActive(false);
         pauseScreen.SetActive(status);
 
         Time.timeScale = System.Convert.ToInt32(!status);
