@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2061524bef7594c9dae2147ea8a53318
+guid: 798af0a29b5d94b7fa26536daaf4285e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5364998781258067660
-    second: cloud_idle_0
+      213: -7065593637513692017
+    second: cloud_idle-3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cloud_idle_0
+      name: cloud_idle-3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 9
         width: 32
-        height: 16
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43195be8802bb85b0800000000000000
-      internalID: -5364998781258067660
+      spriteID: f8c7cb49508f1fd90800000000000000
+      internalID: -7065593637513692017
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cloud_idle_0: -5364998781258067660
+      cloud_idle-3_0: -7065593637513692017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
