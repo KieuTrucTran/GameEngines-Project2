@@ -121,8 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debugMode: 1
   scenes:
-  - Test Scene
-  - Test Scene 2
+  - Truc Level
   transitionSpeed: 2
 --- !u!1 &2525526474836425888
 GameObject:
