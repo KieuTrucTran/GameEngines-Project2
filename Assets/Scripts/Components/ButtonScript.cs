@@ -47,14 +47,19 @@ public class ButtonScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject playerParent = collision.gameObject.transform.parent.gameObject;
-        if (playerParent != null) 
-        {
-            if(playerParent.tag == "Player")
+        Transform parentTransform = collision.gameObject.transform.parent;
+        if (parentTransform != null) {
+            GameObject playerParent = parentTransform.gameObject;
+            if (playerParent != null)
             {
-                objectsInCollider++;
+                if (playerParent.tag == "Player")
+                {
+                    objectsInCollider++;
+                }
             }
         }
+
+        
 
         if (collision.gameObject.tag == "Box")
         {
@@ -69,12 +74,16 @@ public class ButtonScript : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        GameObject playerParent = collision.gameObject.transform.parent.gameObject;
-        if (playerParent != null)
+        Transform parentTransform = collision.gameObject.transform.parent;
+        if (parentTransform != null)
         {
-            if (playerParent.tag == "Player")
+            GameObject playerParent = parentTransform.gameObject;
+            if (playerParent != null)
             {
-                objectsInCollider--;
+                if (playerParent.tag == "Player")
+                {
+                    objectsInCollider--;
+                }
             }
         }
 
