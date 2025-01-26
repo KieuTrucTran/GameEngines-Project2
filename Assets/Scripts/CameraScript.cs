@@ -29,14 +29,18 @@ public class CameraScript : MonoBehaviour
 
     void LateUpdate()
     {
-        Vector3 desiredPosition = player.transform.position + offset;
 
-        desiredPosition.x = Mathf.Clamp(desiredPosition.x, minX, maxX);
-        desiredPosition.y = Mathf.Clamp(desiredPosition.y, minY, maxY);
+        if (player.tag != "Box") {
+            Vector3 desiredPosition = player.transform.position + offset;
 
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+            desiredPosition.x = Mathf.Clamp(desiredPosition.x, minX, maxX);
+            desiredPosition.y = Mathf.Clamp(desiredPosition.y, minY, maxY);
 
-        smoothedPosition.Set(smoothedPosition.x, smoothedPosition.y, -10);
-        transform.position = smoothedPosition;
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+
+            smoothedPosition.Set(smoothedPosition.x, smoothedPosition.y, -10);
+            transform.position = smoothedPosition;
+        }
+        
     }
 }

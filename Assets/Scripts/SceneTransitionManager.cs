@@ -56,9 +56,17 @@ public class SceneTransitionManager : MonoBehaviour
 
     public void initiateTransitionToNextScene()
     {
+        if(currentSceneIndex == 5) currentSceneIndex = 0;
+
         initiateTransition = true;
 
         if (debugMode) Debug.Log("Starting transition from " + scenes[currentSceneIndex] + " to next scene");
+    }
+
+    public void loadMultiPlayerLevel()
+    { 
+        currentSceneIndex = 6;
+        initiateTransition = true;
     }
 
     // Update is called once per frame
@@ -114,5 +122,19 @@ public class SceneTransitionManager : MonoBehaviour
         SceneManager.LoadScene(currentSceneName, LoadSceneMode.Single);
         sceneWasSwitched = true;
         currentSceneIndex++;
+
+        Debug.Log("Scene List:");
+        foreach (var s in scenes)
+        {
+            if (s == scenes[currentSceneIndex])
+            {
+                Debug.Log(">" + s);
+            }
+            else
+            {
+                Debug.Log(s);
+            }
+
+        }
     }
 }

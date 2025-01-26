@@ -2889,7 +2889,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8891828842817111606}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: LoadScene5
+        m_MethodName: LoadScene3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2965,7 +2965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2329400695031811657, guid: 319aedfa84f2742b1aa7764f7f1d02fc, type: 3}
+  m_Sprite: {fileID: -8599608398078881199, guid: 36d53053a564e4427bb7b55fdbc700f6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

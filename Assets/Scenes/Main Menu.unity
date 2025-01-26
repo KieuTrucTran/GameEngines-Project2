@@ -712,17 +712,60 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1247037588 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
-  m_PrefabInstance: {fileID: 1567449358}
+--- !u!1 &1429331429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1429331431}
+  - component: {fileID: 1429331430}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1429331430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429331429}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94d4d4d46b2ac194b828459d7dcaf97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugMode: 1
+  scenes:
+  - Tutorial Level
+  - Truc Level
+  - Leon Level
+  - LeonidLevel
+  - Truc Level2
+  - Main Menu
+  - Multiplayer Level
+  transitionSpeed: 2
+--- !u!4 &1429331431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429331429}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.4150543, y: -5.7279587, z: -1713.0863}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1567449358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -779,21 +822,8 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1099370485}
-    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
-      propertyPath: scenes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
-      propertyPath: 'scenes.Array.data[0]'
-      value: Tutorial Level
-      objectReference: {fileID: 0}
-    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
-      propertyPath: 'scenes.Array.data[1]'
-      value: Tutorial Level
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3766167859058757983, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
@@ -880,7 +910,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1247037588}
+      - m_Target: {fileID: 1429331430}
         m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
         m_MethodName: initiateTransitionToNextScene
         m_Mode: 1
@@ -1012,7 +1042,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1758377223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1429331430}
+        m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
+        m_MethodName: loadMultiPlayerLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1758377223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,4 +1311,5 @@ SceneRoots:
   - {fileID: 1099370486}
   - {fileID: 1229796955}
   - {fileID: 1061053303}
+  - {fileID: 1429331431}
   - {fileID: 1567449358}

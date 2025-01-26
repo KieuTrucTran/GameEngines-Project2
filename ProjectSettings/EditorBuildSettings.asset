@@ -5,15 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Tutorial Level.unity
     guid: 5bba691ebdc8449ff9cf486869cd9f9c
-  - enabled: 1
-    path: Assets/Scenes/Test Scene.unity
-    guid: 4a4c041d81aa2b04f80d7e3eadbb5d0b
   - enabled: 1
     path: Assets/Scenes/Truc Level.unity
     guid: e6d38151dc6bbe14bb911a58da227e6f
@@ -26,5 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Truc Level2.unity
     guid: 410e95cd784753e449ded79a47964acb
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Level.unity
+    guid: cd9b72400c69a784ab2bd9e320f166db
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: eb2074a94fde9624abe762e31ece7346
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

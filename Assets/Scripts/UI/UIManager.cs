@@ -54,11 +54,11 @@ public class UIManager : MonoBehaviour
     }
     public void LoadScene2(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
     public void LoadScene3(){
         Time.timeScale = 1;
-        //SceneManager.LoadScene(5);
+        SceneManager.LoadScene(2);
     }
     public void LoadScene4(){
         Time.timeScale = 1;
@@ -66,11 +66,11 @@ public class UIManager : MonoBehaviour
     }
     public void LoadScene5(){
         Time.timeScale = 1;
-        //SceneManager.LoadScene(6);
+       SceneManager.LoadScene(4);
     }
     public void LoadScene6(){
         Time.timeScale = 1;
-        //SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
     }
 
 
@@ -79,12 +79,10 @@ public class UIManager : MonoBehaviour
         MusicManager.instance.ChangeMusicVolume(0.1f);
     }
 
-    public void Quit(){
-        Application.Quit();
-
-        #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; //Exits play mode (will only ber executed in the editor)
-        #endif
+    public void Quit()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(6);
     }
 
 
