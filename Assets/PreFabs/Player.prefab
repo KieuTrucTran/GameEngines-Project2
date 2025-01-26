@@ -9892,11 +9892,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431711824551050913}
-  - component: {fileID: 1058485212597161636}
+  - component: {fileID: 8625179290828204861}
   - component: {fileID: 3473070765611742628}
   - component: {fileID: 6763382865497839440}
   - component: {fileID: 9185547052446641662}
-  - component: {fileID: 1903249445354820344}
+  - component: {fileID: 1975705515672948243}
   m_Layer: 0
   m_Name: Gas-Player
   m_TagString: Gas Player
@@ -9920,7 +9920,7 @@ Transform:
   - {fileID: 8047107077237299542}
   m_Father: {fileID: 4931668978767425740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1058485212597161636
+--- !u!212 &8625179290828204861
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9963,7 +9963,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1505076785
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2061524bef7594c9dae2147ea8a53318, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10068,7 +10068,7 @@ MonoBehaviour:
   horizontalDrag: 0.95
   normalSprite: {fileID: 21300000, guid: 2061524bef7594c9dae2147ea8a53318, type: 3}
   angrySprite: {fileID: 7112144191495559607, guid: ac382fbd27023fc48a1b7bd7e7c74187, type: 3}
---- !u!95 &1903249445354820344
+--- !u!95 &1975705515672948243
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -10078,7 +10078,7 @@ Animator:
   m_GameObject: {fileID: 2412400596924347407}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c875a70be6a16486090e4069bc3c90b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: b006017353125de4db735c18a90986ab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
