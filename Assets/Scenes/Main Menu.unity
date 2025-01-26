@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 1229796953}
   - component: {fileID: 1229796952}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainMenuCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676,7 +676,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1099370485}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -686,7 +686,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -53213733
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1229796955
@@ -712,6 +712,91 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1247037588 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+  m_PrefabInstance: {fileID: 1567449358}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d4d4d46b2ac194b828459d7dcaf97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1567449358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -53.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5557172
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 361738038698774019, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525526474836425888, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_Name
+      value: SceneTransition_Component
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742532621919379741, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1099370485}
+    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: scenes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: 'scenes.Array.data[0]'
+      value: Tutorial Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 7309441437039280476, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+      propertyPath: 'scenes.Array.data[1]'
+      value: Tutorial Level
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 3766167859058757983, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c59fccdf4e804634a9f740f37152977e, type: 3}
 --- !u!1 &1704659149
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +879,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1704659152}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1247037588}
+        m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
+        m_MethodName: initiateTransitionToNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1704659152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,3 +1269,4 @@ SceneRoots:
   - {fileID: 1099370486}
   - {fileID: 1229796955}
   - {fileID: 1061053303}
+  - {fileID: 1567449358}
