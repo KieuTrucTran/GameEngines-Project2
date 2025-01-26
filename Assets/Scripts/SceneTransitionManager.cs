@@ -1,9 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class SceneTransitionManager : MonoBehaviour
 {
+
+    public bool debugMode = true;
+
     // Singelton Class
     public static SceneTransitionManager Instance { get; private set; }
     void Awake()
@@ -11,47 +15,67 @@ public class SceneTransitionManager : MonoBehaviour
         if (Instance != null)
         {
             Debug.LogError("There is more than one instance!");
+            Destroy(gameObject);
             return;
         }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
-    [Header ("Scene Management")]
+    [Header("Scene Management")]
     public string[] scenes;
     private int currentSceneIndex = 0;
 
 
     [Header("Transition Effect")]
-    public Image[] images; // png images containing gradients
-    public Image defaultImage;
     public float transitionSpeed = 2.0f;
-    private bool hideScene = false;
+    private bool initiateTransition = false;
     private bool transitionDone = false;
     private bool sceneWasSwitched = false;
 
     void Start()
     {
+        if (debugMode)
+        {
+            Debug.Log("Starting up SceneManager...");
+            Debug.Log(Instance);
+            Debug.Log("Scene List:");
+            foreach (var s in scenes)
+            {
+                if (s == scenes[currentSceneIndex]) {
+                    Debug.Log(">" + s);
+                }else
+                {
+                    Debug.Log(s);
+                }
+                
+            }
+        }
+    }
 
+    public void initiateTransitionToNextScene()
+    {
+        initiateTransition = true;
+
+        if (debugMode) Debug.Log("Starting transition from " + scenes[currentSceneIndex] + " to next scene");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            hideScene = !hideScene;
-        }
-
         checkTransitionState();
 
-        if(transitionDone)
+        if (transitionDone)
         {
-            hideScene = false;
+            initiateTransition = false;
+            if (debugMode) Debug.Log("Loading next scene");
             loadToNextScene();
         }
 
-        if(sceneWasSwitched)
+        if (sceneWasSwitched)
         {
-            hideScene = false;
+            transitionDone = false;
         }
     }
 
@@ -62,9 +86,10 @@ public class SceneTransitionManager : MonoBehaviour
      */
     void checkTransitionState()
     {
-        Image image = getCurrentImage();
-        
-        if (hideScene)
+        GameObject imageObject = GameObject.Find("Canvas/TransitionImage");
+        Image image = imageObject.GetComponent<Image>();
+
+        if (initiateTransition)
         {
             image.material.SetFloat("_CutOff",
                 Mathf.MoveTowards(image.material.GetFloat("_CutOff"), -1, transitionSpeed * Time.deltaTime));
@@ -88,12 +113,6 @@ public class SceneTransitionManager : MonoBehaviour
         string currentSceneName = scenes[currentSceneIndex];
         SceneManager.LoadScene(currentSceneName, LoadSceneMode.Single);
         sceneWasSwitched = true;
-    }
-
-    Image getCurrentImage()
-    {
-        Image image = images[currentSceneIndex];
-        if (image != null) image = defaultImage;
-        return image;
+        currentSceneIndex++;
     }
 }

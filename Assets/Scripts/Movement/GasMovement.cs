@@ -21,11 +21,14 @@ public class GasMovement : MonoBehaviour
     private float angryTime = 2.0f;
     bool isAngry = false;
 
+    private Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0; // Disable gravity for gas
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -46,6 +49,7 @@ public class GasMovement : MonoBehaviour
                 angryTimer = 0;
                 isAngry = false;
                 spriteRenderer.sprite = normalSprite;
+                animator.enabled = true;
             }
                 
         }
@@ -116,6 +120,7 @@ public class GasMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        animator.enabled = false;
         spriteRenderer.sprite = angrySprite;
         isAngry = true;
     }
