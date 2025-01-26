@@ -1,16 +1,18 @@
 using UnityEngine;
 
-public class ButtonScript : MonoBehaviour
+public class H_ButtonScript : MonoBehaviour
 {
 
-    public GameObject wallTop;
-    public GameObject wallBottom;
+    public GameObject wallLeft;
+    public GameObject wallRight;
 
     private bool buttonPressed = false;
 
-    private float initialPositionY;
+    private float initialPositionX;
 
-    private float moveSpeedOpen = 0.1f;
+    public float openingDistance = 2;
+
+    private float moveSpeedOpen = 1.0f;
     private float moveSpeedClose = 2.0f;
 
     private int objectsInCollider = 0;
@@ -18,7 +20,7 @@ public class ButtonScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        initialPositionY = wallTop.transform.position.y;
+        initialPositionX = wallLeft.transform.position.x;
     }
 
     // Update is called once per frame
@@ -28,29 +30,33 @@ public class ButtonScript : MonoBehaviour
         if (buttonPressed)
         {
             GetComponent<SpriteRenderer>().color = Color.green;
-        }else
+        }
+        else
         {
+            // closing the walls
             GetComponent<SpriteRenderer>().color = Color.red;
-            if (wallTop.transform.position.y > initialPositionY)
+            if (wallLeft.transform.position.x < initialPositionX)
             {
-                wallTop.transform.position -= Vector3.up * Time.deltaTime * moveSpeedClose;
-                wallBottom.transform.position -= Vector3.down * Time.deltaTime * moveSpeedClose;
+                wallLeft.transform.position -= Vector3.left * Time.deltaTime * moveSpeedClose;
+                wallRight.transform.position -= Vector3.right * Time.deltaTime * moveSpeedClose;
             }
         }
 
-        if (buttonPressed && wallTop.transform.position.y < initialPositionY + 3)
+        // opening the walls
+
+        if (buttonPressed && wallLeft.transform.position.x > initialPositionX - openingDistance)
         {
-            wallTop.transform.position += Vector3.up * Time.deltaTime * moveSpeedOpen;
-            wallBottom.transform.position += Vector3.down * Time.deltaTime * moveSpeedOpen;
+            wallLeft.transform.position += Vector3.left * Time.deltaTime * moveSpeedOpen;
+            wallRight.transform.position += Vector3.right * Time.deltaTime * moveSpeedOpen;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject playerParent = collision.gameObject.transform.parent.gameObject;
-        if (playerParent != null) 
+        if (playerParent != null)
         {
-            if(playerParent.tag == "Player")
+            if (playerParent.tag == "Player")
             {
                 objectsInCollider++;
             }
@@ -61,7 +67,7 @@ public class ButtonScript : MonoBehaviour
             objectsInCollider++;
         }
 
-        if(objectsInCollider > 0)
+        if (objectsInCollider > 0)
         {
             buttonPressed = true;
         }
@@ -83,7 +89,7 @@ public class ButtonScript : MonoBehaviour
             objectsInCollider--;
         }
 
-        if(objectsInCollider == 0)
+        if (objectsInCollider == 0)
         {
             buttonPressed = false;
         }

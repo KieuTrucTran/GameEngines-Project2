@@ -32,14 +32,17 @@ public class CableComponent : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
 
-        if (collision.gameObject.tag == "Player")
+        GameObject playerParent = collision.gameObject.transform.parent.gameObject;
+        if (playerParent != null)
         {
-            PlayerTransition playerScript = collision.gameObject.GetComponentInParent<PlayerTransition>();
-            if (playerScript != null)
+            if (playerParent.tag == "Player")
             {
-                if(playerScript.currentStateIndex == 1) zoneEntered = true;
+                PlayerTransition playerScript = collision.gameObject.GetComponentInParent<PlayerTransition>();
+                if (playerScript != null)
+                {
+                    if (playerScript.currentStateIndex == 1) zoneEntered = true;
+                }
             }
         }
     }

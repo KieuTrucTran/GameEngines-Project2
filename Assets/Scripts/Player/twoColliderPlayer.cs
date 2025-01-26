@@ -1,21 +1,21 @@
 using UnityEngine;
 
-public class ColliderPlayerScript : MonoBehaviour
+public class twoColliderPlayerScript : MonoBehaviour
 {
 
     public GameObject playerParent;
-    PlayerTransition playerTransitionScript;
+    twoPlayerTransition playerTransitionScript;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerTransitionScript = playerParent.GetComponent<PlayerTransition>();
+        playerTransitionScript = playerParent.GetComponent<twoPlayerTransition>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

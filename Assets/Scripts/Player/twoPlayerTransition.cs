@@ -1,9 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using static UnityEngine.ParticleSystem;
 
-public class PlayerTransition : MonoBehaviour
+public class twoPlayerTransition : MonoBehaviour
 {
     //ice, water, water particles, Gas
     public Transform[] playerStates = new Transform[4];
@@ -19,12 +20,30 @@ public class PlayerTransition : MonoBehaviour
 
     [SerializeField] private Image thermometer;
     private Animator animator;
-    
+
+    public InputActionAsset myInput;
+
+    InputAction a;
+    InputAction b;
+    InputAction c;
+
+
+    private void OnEnable()
+    {
+        a.Enable();
+        b.Enable();
+        c.Enable();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        if(thermometer != null)
+        a = myInput.FindActionMap("Player").FindAction("PressA");
+        b = myInput.FindActionMap("Player").FindAction("PressB");
+        c = myInput.FindActionMap("Player").FindAction("PressC");
+
+
+        if (thermometer != null)
         {
             animator = thermometer.GetComponent<Animator>();
             animator.SetBool("goIdle", true);
@@ -46,17 +65,17 @@ public class PlayerTransition : MonoBehaviour
         //water particles always need to be near player because they can't teleport instantly
         playerStates[2].position = currentPosition;
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (a.triggered)
         {
             if (!solidDisabled) activateState(0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (b.triggered)
         {
-            if (!fluidDisabled)activateState(1);
+            if (!fluidDisabled) activateState(1);
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (c.triggered)
         {
             if (!gasDisabled) activateState(3); //skipped 2, which are the particles
         }
@@ -69,10 +88,12 @@ public class PlayerTransition : MonoBehaviour
         if (stateInfo.IsName("Thermometer_DeFreeze") && stateInfo.normalizedTime >= 1.0f)
         {
             animator.SetBool("goIdle", true);
-                //animator.ResetTrigger("freezing");
-        } else if (stateInfo.IsName("Thermometer_DeHeat") && stateInfo.normalizedTime >= 1.0f){
+            //animator.ResetTrigger("freezing");
+        }
+        else if (stateInfo.IsName("Thermometer_DeHeat") && stateInfo.normalizedTime >= 1.0f)
+        {
             animator.SetBool("goIdle", true);
-                //animator.ResetTrigger("heating");
+            //animator.ResetTrigger("heating");
         }
     }
 
@@ -91,7 +112,7 @@ public class PlayerTransition : MonoBehaviour
                 playerStates[1].gameObject.SetActive(true);
                 playerStates[1].position = currentPosition;
                 playerStates[2].gameObject.SetActive(true);
-                
+
                 break;
             case 3:
                 playerStates[3].gameObject.SetActive(true);
@@ -111,15 +132,15 @@ public class PlayerTransition : MonoBehaviour
     public void zoneEntered(Collider2D collider)
     {
         if (thermometer == null) return;
-        
+
 
         if (collider.gameObject.tag == "Heat")
         {
             animator.SetTrigger("heating");
-            animator.SetBool("goIdle",false);
+            animator.SetBool("goIdle", false);
             //animator.ResetTrigger("deheating");
             Debug.Log("Heat entered");
-            
+
             solidDisabled = true;
             if (currentStateIndex == 0) activateState(1);
         }
@@ -127,9 +148,9 @@ public class PlayerTransition : MonoBehaviour
         if (collider.gameObject.tag == "Cold")
         {
             animator.SetTrigger("freezing");
-            animator.SetBool("goIdle",false);
+            animator.SetBool("goIdle", false);
             //animator.ResetTrigger("defreezing");
-            
+
             fluidDisabled = true;
             if (currentStateIndex == 1) activateState(0);
         }
@@ -147,7 +168,7 @@ public class PlayerTransition : MonoBehaviour
         if (collider.gameObject.tag == "Heat")
         {
             animator.SetTrigger("deheating");
-            
+
             solidDisabled = false;
         }
 
