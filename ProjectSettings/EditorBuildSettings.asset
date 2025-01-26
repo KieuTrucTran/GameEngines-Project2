@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Truc Level.unity
     guid: e6d38151dc6bbe14bb911a58da227e6f
+  - enabled: 1
+    path: Assets/Scenes/Leonid/LeonidLevel.unity
+    guid: 8909a0091e9184293b906922cf8e62dc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
