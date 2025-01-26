@@ -42,22 +42,26 @@ public class PlayerTransition : MonoBehaviour
         currentPosition = playerStates[currentStateIndex].position;
         colliderObject.transform.position = currentPosition;
 
+        AudioSource ploppSound = GetComponent<AudioSource>();
 
         //water particles always need to be near player because they can't teleport instantly
         playerStates[2].position = currentPosition;
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            ploppSound.Play();
             if (!solidDisabled) activateState(0);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
+            ploppSound.Play();
             if (!fluidDisabled)activateState(1);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
+            ploppSound.Play();
             if (!gasDisabled) activateState(3); //skipped 2, which are the particles
         }
 

@@ -23,5 +23,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Leon/Leon Level.unity
     guid: dd14b8d3062114c3a9dd9113de71c964
+  - enabled: 1
+    path: Assets/Scenes/Truc Level2.unity
+    guid: 410e95cd784753e449ded79a47964acb
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

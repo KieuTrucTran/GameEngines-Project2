@@ -3357,26 +3357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2412400596924347407, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2823446980406390991, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: thermometer
       value: 
       objectReference: {fileID: 962470627}
-    - target: {fileID: 2885562174376327362, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2908325086051955193, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403752352964037066, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4931668978767425740, guid: ab948411fe093464e9fce2e6af9ea2a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.56
@@ -3928,7 +3912,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 267a0562368421345b5308f4c853e2ab, type: 3}
   m_Resource: {fileID: 8300000, guid: 267a0562368421345b5308f4c853e2ab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.1
+  m_Volume: 0.04
   m_Pitch: 1
   Loop: 1
   Mute: 0
