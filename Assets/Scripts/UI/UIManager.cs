@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject pauseScreen;
 
+    private MusicManager musicManager;
+
     private void Awake()
     {
         //gameOverScreen.SetActive(false);
@@ -32,6 +34,8 @@ public class UIManager : MonoBehaviour
 
     public void Restart()
     {
+        // Reset time scale in case the game was paused
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -40,6 +44,7 @@ public class UIManager : MonoBehaviour
     }
     public void Volume(){
         //SceneManager.LoadScene(0);
+        MusicManager.instance.ChangeMusicVolume(0.2f);
     }
 
     public void Quit(){
