@@ -5,8 +5,8 @@ public class HorizontalLeverScript : MonoBehaviour
     public Sprite leverOff;
     public Sprite leverOn;
 
-    public GameObject wallTop;
-    public GameObject wallBottom;
+    public GameObject wallLeft;
+    public GameObject wallRight;
 
     public float openingDistance = 2.5f;
 
@@ -18,7 +18,7 @@ public class HorizontalLeverScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        initialPositionX = wallTop.transform.position.x;
+        initialPositionX = wallLeft.transform.position.x;
     }
 
     // Update is called once per frame
@@ -33,10 +33,10 @@ public class HorizontalLeverScript : MonoBehaviour
             }
         }    
 
-        if(leverPressed && wallTop.transform.position.x < initialPositionX + openingDistance)
+        if(leverPressed && wallLeft.transform.position.x > initialPositionX - openingDistance)
         {
-            wallTop.transform.position += Vector3.left * Time.deltaTime;
-            wallBottom.transform.position += Vector3.right * Time.deltaTime;
+            wallLeft.transform.position += Vector3.left * Time.deltaTime;
+            wallRight.transform.position += Vector3.right * Time.deltaTime;
         }
     }
 
