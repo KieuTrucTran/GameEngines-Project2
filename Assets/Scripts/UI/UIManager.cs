@@ -53,15 +53,26 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
     public void LoadScene2(){
-        // Reset time scale in case the game was paused
         Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
+    public void LoadScene3(){
+        Time.timeScale = 1;
+        //SceneManager.LoadScene(5);
+    }
     public void LoadScene4(){
-        // Reset time scale in case the game was paused
         Time.timeScale = 1;
         SceneManager.LoadScene(3);
     }
+    public void LoadScene5(){
+        Time.timeScale = 1;
+        //SceneManager.LoadScene(6);
+    }
+    public void LoadScene6(){
+        Time.timeScale = 1;
+        //SceneManager.LoadScene(6);
+    }
+
 
     public void Volume(){
         //SceneManager.LoadScene(0);
