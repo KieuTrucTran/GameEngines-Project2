@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject pauseScreen;
 
+    [SerializeField] private GameObject sceneList;
+
     private MusicManager musicManager;
 
     private void Awake()
@@ -40,11 +42,30 @@ public class UIManager : MonoBehaviour
     }
 
     public void Menu(){
+        //SceneManager.LoadScene(0);
+        pauseScreen.SetActive(false);
+        sceneList.SetActive(true);
+    }
+
+    public void LoadScene1(){
+        // Reset time scale in case the game was paused
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
+    public void LoadScene2(){
+        // Reset time scale in case the game was paused
+        Time.timeScale = 1;
+        SceneManager.LoadScene(2);
+    }
+    public void LoadScene4(){
+        // Reset time scale in case the game was paused
+        Time.timeScale = 1;
+        SceneManager.LoadScene(3);
+    }
+
     public void Volume(){
         //SceneManager.LoadScene(0);
-        MusicManager.instance.ChangeMusicVolume(0.2f);
+        MusicManager.instance.ChangeMusicVolume(0.1f);
     }
 
     public void Quit(){
