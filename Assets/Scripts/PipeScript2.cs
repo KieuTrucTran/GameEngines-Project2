@@ -35,7 +35,7 @@ public class PipeScript : MonoBehaviour
                 // Must be Water form (stateIndex = 1)
                 if (playerTransition.currentStateIndex == 1)
                 {
-                    TeleportPlayer();
+                    TeleportCameraTarget();
                 }
                 else
                 {
@@ -45,7 +45,7 @@ public class PipeScript : MonoBehaviour
         }
     }
 
-    private void TeleportPlayer()
+    private void TeleportCameraTarget()
     {
         if (otherPipe == null)
         {
@@ -53,14 +53,23 @@ public class PipeScript : MonoBehaviour
             return;
         }
 
-        // Move the entire top-level player object
-        Transform playerRoot = playerTransition.transform;
-        playerRoot.position = otherPipe.transform.position;
+        // We'll teleport the object the camera is actually following
+        // (Assuming in CameraScript, 'player' references the collider child)
+        GameObject cameraTarget = CameraScript.Instance.player;
+        if (cameraTarget == null)
+        {
+            Debug.LogError("CameraScript.Instance.player is null! Is the camera's 'player' assigned?");
+            return;
+        }
 
-        // If PlayerTransition snaps the player each frame, update it too:
-        playerTransition.playerStates[playerTransition.currentStateIndex].position = playerRoot.position;
-        playerTransition.colliderObject.transform.position = playerRoot.position;
+        // Move the cameraTarget to the other pipe's position
+        cameraTarget.transform.position = otherPipe.transform.position;
 
-        Debug.Log($"{name}: Teleported player to {otherPipe.name} in the same prefab pair!");
+        // Also update PlayerTransition so you don't snap back next frame
+        int stateIndex = playerTransition.currentStateIndex;
+        playerTransition.playerStates[stateIndex].position = cameraTarget.transform.position;
+        playerTransition.colliderObject.transform.position = cameraTarget.transform.position;
+
+        Debug.Log($"{name}: Teleported the camera target to {otherPipe.name} in the same prefab pair!");
     }
 }
