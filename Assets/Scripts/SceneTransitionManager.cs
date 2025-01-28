@@ -12,20 +12,32 @@ public class SceneTransitionManager : MonoBehaviour
     public static SceneTransitionManager Instance { get; private set; }
     void Awake()
     {
-        if (Instance != null)
+        if (Instance != null && Instance != this)
         {
-            Debug.LogError("There is more than one instance!");
-            Destroy(gameObject);
+            if (SceneManager.GetActiveScene().buildIndex == 0)
+            {
+                Debug.Log("Reached Main Menu. Destroying old Instance");
+                Destroy(Instance.gameObject); // Destroy the old instance entirely
+                Instance = this; // Set the current instance
+                DontDestroyOnLoad(gameObject); // Make it persist
+            }
+            else
+            {
+                Debug.LogError("There is more than one instance! Destroying this instance.");
+                Destroy(gameObject); // Destroy the duplicate instance
+            }
             return;
         }
 
+        // If Instance is null or this is the first instance
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
+
     [Header("Scene Management")]
-    public string[] scenes;
     private int currentSceneIndex = 0;
+    private int sceneIndexToLoad = 0;
 
 
     [Header("Transition Effect")]
@@ -34,44 +46,49 @@ public class SceneTransitionManager : MonoBehaviour
     private bool transitionDone = false;
     private bool sceneWasSwitched = false;
 
-    void Start()
+    public void startSinglePlayer()
     {
-        if (debugMode)
-        {
-            Debug.Log("Starting up SceneManager...");
-            Debug.Log(Instance);
-            Debug.Log("Scene List:");
-            foreach (var s in scenes)
-            {
-                if (s == scenes[currentSceneIndex]) {
-                    Debug.Log(">" + s);
-                }else
-                {
-                    Debug.Log(s);
-                }
-                
-            }
-        }
+        currentSceneIndex = 0;
+        sceneIndexToLoad = 1;
+        initiateTransition = true;
     }
 
     public void initiateTransitionToNextScene()
     {
-        if(currentSceneIndex == 5) currentSceneIndex = 0;
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        sceneIndexToLoad = (currentSceneIndex + 1);
+
+        if(currentSceneIndex >= 6)
+        {
+            sceneIndexToLoad = 0;
+        }
 
         initiateTransition = true;
-
-        if (debugMode) Debug.Log("Starting transition from " + scenes[currentSceneIndex] + " to next scene");
     }
 
     public void loadMultiPlayerLevel()
-    { 
-        currentSceneIndex = 6;
+    {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        sceneIndexToLoad = 6;
         initiateTransition = true;
+    }
+
+    public void loadMainMenu()
+    {
+        currentSceneIndex = 0;
+        sceneIndexToLoad = 0;
+        initiateTransition = true;
+    }
+
+    public void quit()
+    {
+        Application.Quit();
     }
 
     // Update is called once per frame
     void Update()
     {
+
         checkTransitionState();
 
         if (transitionDone)
@@ -118,23 +135,7 @@ public class SceneTransitionManager : MonoBehaviour
     void loadToNextScene()
     {
         transitionDone = false;
-        string currentSceneName = scenes[currentSceneIndex];
-        SceneManager.LoadScene(currentSceneName, LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneIndexToLoad);
         sceneWasSwitched = true;
-        currentSceneIndex++;
-
-        Debug.Log("Scene List:");
-        foreach (var s in scenes)
-        {
-            if (s == scenes[currentSceneIndex])
-            {
-                Debug.Log(">" + s);
-            }
-            else
-            {
-                Debug.Log(s);
-            }
-
-        }
     }
 }

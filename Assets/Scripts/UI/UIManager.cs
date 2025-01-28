@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
     }
 
     private void Update(){
-        if(Input.GetKeyDown(KeyCode.Escape)){
+        if(Input.GetKeyDown(KeyCode.Q)){
             if(pauseScreen.activeInHierarchy)
                 PauseGame(false);
             else
@@ -50,27 +50,27 @@ public class UIManager : MonoBehaviour
     public void LoadScene1(){
         // Reset time scale in case the game was paused
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void LoadScene2(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     public void LoadScene3(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
     public void LoadScene4(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
     public void LoadScene5(){
         Time.timeScale = 1;
-       SceneManager.LoadScene(4);
+       SceneManager.LoadScene(5);
     }
     public void LoadScene6(){
         Time.timeScale = 1;
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
 
 
@@ -82,7 +82,7 @@ public class UIManager : MonoBehaviour
     public void Quit()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(0);
     }
 
 

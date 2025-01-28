@@ -14,37 +14,15 @@ public class LevelExit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(GameObject.Find("Player 2") != null)
+        if (collision.gameObject.tag == "Player")
         {
-            playerInExit++;
-
-            if(playerInExit == 2)
-            {
-                SceneTransitionManager.Instance.initiateTransitionToNextScene();
-            }
-
-
+            SceneTransitionManager.Instance.initiateTransitionToNextScene();
         }
-        else
-        {
-            if (collision.gameObject.tag == "Player")
-            {
-                SceneTransitionManager.Instance.initiateTransitionToNextScene();
-            }
-        }
-        
-    }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (GameObject.Find("Player 2") != null)
-        {
-            playerInExit--;
-        }
     }
 }

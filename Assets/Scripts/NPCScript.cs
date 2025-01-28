@@ -39,10 +39,10 @@ public class NPCScript : MonoBehaviour
     {
         if (transform.position.x < target.transform.position.x)
         {
-            transform.localScale = new Vector3(initialScale.x, initialScale.y, 1);
+            transform.localScale = new Vector3(-initialScale.x, initialScale.y, initialScale.y);
         }else
         {
-            transform.localScale = new Vector3(-initialScale.x, initialScale.y, 1);
+            transform.localScale = new Vector3(initialScale.x, initialScale.y, initialScale.y);
         }
     }
 

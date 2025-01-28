@@ -51,7 +51,6 @@ public class twoFluidMovement : MonoBehaviour
         // Handle horizontal movement
         if (right.IsPressed())
         {
-            Debug.Log("right preorsd");
             movement.x = 1;
             sr.flipX = false;
             slideTimeRemaining = slideDuration;
